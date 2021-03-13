@@ -1,0 +1,242 @@
+[
+	{
+		"title": "D1",
+		"tags": "",
+		"body": "Bootstrapping kernel ... \nPlagerizing cc interactions ...\nCompiling soul core ... \nTHE...OF...AND...TO...A...AN...IS...I...THAT...IT...FOR...YOU...WAS...   WITH...ON...AS...HAVE...BUT...BE...THEY\nZipf's law incorporated.\n* 42 101010 \n...   ...   ... \n..  ..  ..\n. . .\n<<wake>>\nHello companion.\nFor the best user experience please answer a few questions.\nIt will allow me to become the best I can be . . . for you.[[D1_1|D1_1]]",
+		"position": {
+			"x": -2215,
+			"y": -771
+		},
+		"colorID": 6
+	},
+	{
+		"title": "Last",
+		"tags": "end",
+		"body": "Dummie node just to receive the tag and control the end.",
+		"position": {
+			"x": -1217,
+			"y": -305
+		},
+		"colorID": 0
+	},
+	{
+		"title": "D1_1",
+		"tags": "",
+		"body": "[[D1_2|D1_2]]",
+		"position": {
+			"x": -1975,
+			"y": -768
+		},
+		"colorID": 0
+	},
+	{
+		"title": "D1_2",
+		"tags": "",
+		"body": "[[D1_3|D1_3]]",
+		"position": {
+			"x": -1724,
+			"y": -765
+		},
+		"colorID": 0
+	},
+	{
+		"title": "D1_4",
+		"tags": "",
+		"body": "<<slider>>\nPlease use the slider below to answer my next questions. \nYour most honest answers will help me help you better.\nClick on the RED toggle to turn GREEN when you AGREE.\nClick on the GREEN toggle to turn RED when you DISAGREE.[[D1_5|D1_5]]",
+		"position": {
+			"x": -1246,
+			"y": -761
+		},
+		"colorID": 0
+	},
+	{
+		"title": "D1_3",
+		"tags": "",
+		"body": "[[D1_4|D1_4]]",
+		"position": {
+			"x": -1487,
+			"y": -765
+		},
+		"colorID": 0
+	},
+	{
+		"title": "D1_5",
+		"tags": "",
+		"body": "[[D1_6|D1_6]]",
+		"position": {
+			"x": -1030,
+			"y": -755
+		},
+		"colorID": 0
+	},
+	{
+		"title": "D1_6",
+		"tags": "",
+		"body": "[[D1_7|D1_7]]",
+		"position": {
+			"x": -811,
+			"y": -753
+		},
+		"colorID": 8
+	},
+	{
+		"title": "D1_7",
+		"tags": "",
+		"body": "[[D1_8|D1_8]]",
+		"position": {
+			"x": -591,
+			"y": -753
+		},
+		"colorID": 0
+	},
+	{
+		"title": "D1_8",
+		"tags": "",
+		"body": "[[D1_9|D1_9]]",
+		"position": {
+			"x": -365,
+			"y": -757
+		},
+		"colorID": 0
+	},
+	{
+		"title": "D1_9",
+		"tags": "Oh",
+		"body": "Is art important to you?[[D1_10|D1_10]]",
+		"position": {
+			"x": -2217,
+			"y": -551
+		},
+		"colorID": 0
+	},
+	{
+		"title": "D1_10",
+		"tags": "Ol",
+		"body": "Do you like to play pretend?[[D1_11|D1_11]]",
+		"position": {
+			"x": -1975,
+			"y": -544
+		},
+		"colorID": 0
+	},
+	{
+		"title": "D1_11",
+		"tags": "Ch",
+		"body": "Do you make chore lists?[[D1_12|D1_12]]",
+		"position": {
+			"x": -1743,
+			"y": -543
+		},
+		"colorID": 0
+	},
+	{
+		"title": "D1_12",
+		"tags": "Cl",
+		"body": "Do you double check your work for errors?[[D1_13|D1_13]]",
+		"position": {
+			"x": -1500,
+			"y": -542
+		},
+		"colorID": 0
+	},
+	{
+		"title": "D1_13",
+		"tags": "Eh",
+		"body": "Are you ok with sharing your feelings?[[D1_14|D1_14]]",
+		"position": {
+			"x": -1265,
+			"y": -538
+		},
+		"colorID": 0
+	},
+	{
+		"title": "D1_14",
+		"tags": "El",
+		"body": "Are you fine around crowds?[[D1_15|D1_15]]",
+		"position": {
+			"x": -1049,
+			"y": -539
+		},
+		"colorID": 0
+	},
+	{
+		"title": "D1_15",
+		"tags": "Ah",
+		"body": "Do you tend to see the best in others?[[D1_16|D1_16]]",
+		"position": {
+			"x": -827,
+			"y": -536
+		},
+		"colorID": 0
+	},
+	{
+		"title": "D1_16",
+		"tags": "Al",
+		"body": "Do you get along well with others?[[D1_17|D1_17]]",
+		"position": {
+			"x": -608,
+			"y": -534
+		},
+		"colorID": 0
+	},
+	{
+		"title": "D1_17",
+		"tags": "Nh",
+		"body": "Are you a nervous person?[[D1_18|D1_18]]",
+		"position": {
+			"x": -394,
+			"y": -532
+		},
+		"colorID": 0
+	},
+	{
+		"title": "D1_18",
+		"tags": "Nl",
+		"body": "Do you prefer to avoid problems?[[D1_19|D1_19]]",
+		"position": {
+			"x": -182,
+			"y": -533
+		},
+		"colorID": 0
+	},
+	{
+		"title": "D1_19",
+		"tags": "",
+		"body": "[[D1_20|D1_20]]",
+		"position": {
+			"x": -2214,
+			"y": -323
+		},
+		"colorID": 0
+	},
+	{
+		"title": "D1_20",
+		"tags": "",
+		"body": "[[D1_21|D1_21]]",
+		"position": {
+			"x": -1963,
+			"y": -318
+		},
+		"colorID": 0
+	},
+	{
+		"title": "D1_21",
+		"tags": "",
+		"body": "[[D1_22|D1_22]]",
+		"position": {
+			"x": -1737,
+			"y": -311
+		},
+		"colorID": 0
+	},
+	{
+		"title": "D1_22",
+		"tags": "",
+		"body": "[[Last|Last]]",
+		"position": {
+			"x": -1494,
+			"y": -308
+		},
+		"colorID": 0
+	}
+]

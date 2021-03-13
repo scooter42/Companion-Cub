@@ -1,0 +1,2926 @@
+{
+  "b": 0,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Boot",
+  "name": "Boot",
+  "oglFOV": 90,
+  "oglZFar": 500,
+  "oglZNear": 1,
+  "r": 0,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 0,
+  "uiSettings": {
+    "grid": true,
+    "gridB": 255,
+    "gridG": 180,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridR": 158,
+    "gridWidth": 32,
+    "snap": true,
+    "windowMask": false,
+    "zoomFactor": 0.496
+  },
+  "objectsGroups": [
+    {
+      "name": "Quests",
+      "objects": [
+        {
+          "name": "Nl_ThreatUnderestimationQuest"
+        },
+        {
+          "name": "Nh_StressDepressionQuest"
+        },
+        {
+          "name": "Al_SkepticQuest"
+        },
+        {
+          "name": "Ah_ToughDecisionQuest2"
+        },
+        {
+          "name": "El_StimulationToleranceQuest"
+        },
+        {
+          "name": "Eh_FacilitatorQuest"
+        },
+        {
+          "name": "Cl_MotivationQuest"
+        },
+        {
+          "name": "Ch_PerfectionismQuest"
+        },
+        {
+          "name": "Ol_BizarreIdeaQuest"
+        },
+        {
+          "name": "Oh_FocusQuest"
+        }
+      ]
+    }
+  ],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "",
+      "locked": false,
+      "name": "CCfaces",
+      "persistentUuid": "4a2eea48-2c14-437e-a0b5-c3fab919d26b",
+      "width": 96,
+      "x": 608,
+      "y": 222,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 256,
+      "layer": "",
+      "locked": false,
+      "name": "CCbody",
+      "persistentUuid": "53617aae-ec45-4c33-98ef-9d4782fc6447",
+      "width": 160,
+      "x": 576,
+      "y": 318,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 384,
+      "layer": "Box",
+      "locked": false,
+      "name": "window",
+      "persistentUuid": "418ed200-ee92-46d5-9aa9-1ac65a5fd389",
+      "width": 224,
+      "x": 544,
+      "y": 190,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 544,
+      "layer": "Box",
+      "locked": false,
+      "name": "box",
+      "persistentUuid": "5b8a7d25-abb4-4a49-9105-08420260da29",
+      "width": 224,
+      "x": 544,
+      "y": 94,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "Bootup",
+      "locked": false,
+      "name": "dialog",
+      "persistentUuid": "c87e011a-d70f-4968-a48c-ec8d2b4f054d",
+      "width": 480,
+      "x": 416,
+      "y": 32,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "Bootup",
+      "locked": false,
+      "name": "questionChoicesText",
+      "persistentUuid": "fb3d530b-1ef2-4d25-8351-0ea3c7484396",
+      "width": 480,
+      "x": 416,
+      "y": 96,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Bootup",
+      "locked": false,
+      "name": "Toggle",
+      "persistentUuid": "5f0ab87b-f9f7-45f6-b389-e6b0b9ccdf86",
+      "width": 0,
+      "x": 608,
+      "y": 96,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "locked": false,
+      "name": "KeyInput",
+      "persistentUuid": "8c787e81-505a-4971-952a-700097164358",
+      "width": 64,
+      "x": 1280,
+      "y": 192,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "locked": false,
+      "name": "keyInput",
+      "persistentUuid": "2d20219a-ef8f-4b52-8cc0-8cdc89e66416",
+      "width": 256,
+      "x": 960,
+      "y": 640,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "dev",
+      "locked": false,
+      "name": "Oh_FocusQuest",
+      "persistentUuid": "ecfee89b-6754-446d-b9be-851075778e79",
+      "width": 0,
+      "x": 32,
+      "y": 32,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "dev",
+      "locked": false,
+      "name": "Ol_BizarreIdeaQuest",
+      "persistentUuid": "e7e3f45d-7679-48df-a825-8e68b1d2400e",
+      "width": 0,
+      "x": 32,
+      "y": 64,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "dev",
+      "locked": false,
+      "name": "Ch_PerfectionismQuest",
+      "persistentUuid": "599da859-f008-415c-b5d0-883c50a3afbc",
+      "width": 0,
+      "x": 32,
+      "y": 128,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "dev",
+      "locked": false,
+      "name": "Cl_MotivationQuest",
+      "persistentUuid": "1ea66c4f-b468-40dc-bd0e-cbf99ef0d1f6",
+      "width": 0,
+      "x": 32,
+      "y": 160,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "dev",
+      "locked": false,
+      "name": "Eh_FacilitatorQuest",
+      "persistentUuid": "d1fb577b-09a5-463a-a8ed-4284908074e9",
+      "width": 0,
+      "x": 32,
+      "y": 224,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "dev",
+      "locked": false,
+      "name": "El_StimulationToleranceQuest",
+      "persistentUuid": "82c8bcd9-0478-4eee-9356-f77fc8201bef",
+      "width": 0,
+      "x": 32,
+      "y": 256,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "dev",
+      "locked": false,
+      "name": "Ah_ToughDecisionQuest2",
+      "persistentUuid": "3950764a-6ab4-402d-9638-569707da73d8",
+      "width": 0,
+      "x": 32,
+      "y": 320,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "dev",
+      "locked": false,
+      "name": "Al_SkepticQuest",
+      "persistentUuid": "c8152a21-0df3-4236-b7bc-8d21b9c32c4d",
+      "width": 0,
+      "x": 32,
+      "y": 352,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "dev",
+      "locked": false,
+      "name": "Nh_StressDepressionQuest",
+      "persistentUuid": "ab981623-05c8-4b42-ba4d-dd337e38afa5",
+      "width": 0,
+      "x": 32,
+      "y": 416,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "dev",
+      "locked": false,
+      "name": "Nl_ThreatUnderestimationQuest",
+      "persistentUuid": "0e768369-108b-4e34-86c6-dc10c478399f",
+      "width": 0,
+      "x": 32,
+      "y": 448,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "credits",
+      "persistentUuid": "3c54c486-ff22-483f-bd78-0c9e7f8e6de6",
+      "width": 0,
+      "x": 544,
+      "y": 640,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "name": "CCbody",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\cc\\body.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "window",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "trans",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\trans-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "box",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\box.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": false,
+      "italic": true,
+      "name": "keyInput",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "name?",
+      "font": "gfx\\Bimbo_JVE.ttf",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 255,
+        "r": 225
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "dialog",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "gfx\\Bimbo_JVE.ttf",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 255,
+        "r": 225
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "questionChoicesText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "gfx\\Bimbo_JVE.ttf",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "name": "Toggle",
+      "tags": "",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "ToggleSwitch",
+          "type": "ToggleSwitch::ToggleSwitch",
+          "ThumbRadius": 16,
+          "ActiveThumbColor": "0;255;0",
+          "ThumbOpacity": 255,
+          "TrackWidth": 96,
+          "TrackHeight": 16,
+          "InactiveTrackColor": "255;0;0",
+          "InactiveTrackOpacity": 128,
+          "ActiveTrackColor": "",
+          "ActiveTrackOpacity": 128,
+          "HaloRadius": 24,
+          "HaloOpacityHover": 32,
+          "HaloOpacityPressed": 64,
+          "ThumbOffset": 0,
+          "Checked": false,
+          "Disabled": false,
+          "ToggleChanged": false,
+          "InactiveThumbColor": "255;0;0",
+          "IsPressed": false,
+          "ThumbShadowOffsetY": 4,
+          "ThumbShadowOffsetX": 0,
+          "ThumbShadowOpacity": 32
+        }
+      ],
+      "fillOpacity": 255,
+      "outlineSize": 1,
+      "outlineOpacity": 255,
+      "fillColor": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "outlineColor": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true
+    },
+    {
+      "name": "KeyInput",
+      "tags": "",
+      "type": "TextEntryObject::TextEntry",
+      "variables": [],
+      "behaviors": []
+    },
+    {
+      "name": "Nl_ThreatUnderestimationQuest",
+      "tags": "",
+      "type": "BBText::BBText",
+      "variables": [],
+      "behaviors": [],
+      "content": {
+        "text": "[outline=blue] [shadow=red]Nl-Threat Underestimation Quests[/shadow] [/outline]",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "#ffff00",
+        "fontFamily": "gfx\\Bimbo_JVE.ttf",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "name": "Nh_StressDepressionQuest",
+      "tags": "",
+      "type": "BBText::BBText",
+      "variables": [],
+      "behaviors": [],
+      "content": {
+        "text": "[outline=blue] [shadow=red]Nh-Stress/Depression Quests[/shadow] [/outline]",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "#ffff00",
+        "fontFamily": "gfx\\Bimbo_JVE.ttf",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "name": "Al_SkepticQuest",
+      "tags": "",
+      "type": "BBText::BBText",
+      "variables": [],
+      "behaviors": [],
+      "content": {
+        "text": "[outline=blue] [shadow=red]Al-Skeptic Quests[/shadow] [/outline]",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "#ffff00",
+        "fontFamily": "gfx\\Bimbo_JVE.ttf",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "name": "Ah_ToughDecisionQuest2",
+      "tags": "",
+      "type": "BBText::BBText",
+      "variables": [],
+      "behaviors": [],
+      "content": {
+        "text": "[outline=blue] [shadow=red]Ah-Tough Decision Quests[/shadow] [/outline]",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "#ffff00",
+        "fontFamily": "gfx\\Bimbo_JVE.ttf",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "name": "El_StimulationToleranceQuest",
+      "tags": "",
+      "type": "BBText::BBText",
+      "variables": [],
+      "behaviors": [],
+      "content": {
+        "text": "[outline=blue] [shadow=red]El-Stimulation Tolerance Quests[/shadow] [/outline]",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "#ffff00",
+        "fontFamily": "gfx\\Bimbo_JVE.ttf",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "name": "Eh_FacilitatorQuest",
+      "tags": "",
+      "type": "BBText::BBText",
+      "variables": [],
+      "behaviors": [],
+      "content": {
+        "text": "[outline=blue] [shadow=red]Eh-Facilitator Quests[/shadow] [/outline]",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "#ffff00",
+        "fontFamily": "gfx\\Bimbo_JVE.ttf",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "name": "Cl_MotivationQuest",
+      "tags": "",
+      "type": "BBText::BBText",
+      "variables": [],
+      "behaviors": [],
+      "content": {
+        "text": "[outline=blue] [shadow=red]Cl-Motivation Quests[/shadow] [/outline]",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "#ffff00",
+        "fontFamily": "gfx\\Bimbo_JVE.ttf",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "name": "Ch_PerfectionismQuest",
+      "tags": "",
+      "type": "BBText::BBText",
+      "variables": [],
+      "behaviors": [],
+      "content": {
+        "text": "[outline=blue] [shadow=red]Ch-Perfectionism Quests[/shadow] [/outline]",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "#ffff00",
+        "fontFamily": "gfx\\Bimbo_JVE.ttf",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "name": "Ol_BizarreIdeaQuest",
+      "tags": "",
+      "type": "BBText::BBText",
+      "variables": [],
+      "behaviors": [],
+      "content": {
+        "text": "[outline=blue] [shadow=red]Ol-Bizarre Idea Quests[/shadow] [/outline]",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "#f8e71c",
+        "fontFamily": "gfx\\Bimbo_JVE.ttf",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "name": "Oh_FocusQuest",
+      "tags": "",
+      "type": "BBText::BBText",
+      "variables": [],
+      "behaviors": [],
+      "content": {
+        "text": "[outline=blue] [shadow=red]Oh-Focus Quests[/shadow] [/outline]",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "#f8e71c",
+        "fontFamily": "gfx\\Bimbo_JVE.ttf",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "name": "credits",
+      "tags": "",
+      "type": "BBText::BBText",
+      "variables": [],
+      "behaviors": [],
+      "content": {
+        "text": "[outline=gray]\nproducer:   JeTSpice Games\nresearcher:   Thomas Lafferty\nprogrammer:   Scott Jacobson\n[/outline]",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "#dddbd4",
+        "fontFamily": "gfx\\Bimbo_JVE.ttf",
+        "align": "center",
+        "wordWrap": true
+      }
+    }
+  ],
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "PauseAnimation"
+          },
+          "parameters": [
+            "CCfaces"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "window",
+            "=",
+            "100"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "dialog",
+            "=",
+            "\"\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "Toggle"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModPitchSoundChannel"
+          },
+          "parameters": [
+            "",
+            "2",
+            "=",
+            "RandomFloatInRange(0.1, 1.5)"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "keyInput",
+            "=",
+            "KeyInput.String()"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreX"
+          },
+          "parameters": [
+            "dialog",
+            "=",
+            "650-dialog.Width()/2"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "window",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Tween::AddObjectOpacityTween"
+          },
+          "parameters": [
+            "window",
+            "Tween",
+            "\"Tween\"",
+            "0",
+            "\"linear\"",
+            "2000",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Tween::AddObjectOpacityTween"
+          },
+          "parameters": [
+            "box",
+            "Tween",
+            "\"Tween\"",
+            "0",
+            "\"linear\"",
+            "2000",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Tween::AddObjectPositionYTween"
+          },
+          "parameters": [
+            "window",
+            "Tween",
+            "\"move\"",
+            "1000",
+            "\"linear\"",
+            "2000",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Tween::AddObjectPositionYTween"
+          },
+          "parameters": [
+            "box",
+            "Tween",
+            "\"move\"",
+            "1000",
+            "\"linear\"",
+            "2000",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "music\\1 Eden (mastered).mp3",
+            "1",
+            "yes",
+            "10",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "snd\\poptype.mp3",
+            "2",
+            "yes",
+            "5",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVolumeSoundCanal"
+          },
+          "parameters": [
+            "",
+            "2",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "DialogueTree::StartDialogueFromBranch"
+          },
+          "parameters": [
+            "\"D1\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Montre"
+          },
+          "parameters": [
+            "dialog",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "Dialog",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::LoadDialogueFromJsonFile"
+              },
+              "parameters": [
+                "",
+                "dialog\\ccboot.json"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "text_scroll_speed",
+                "=",
+                "0.05"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "questionChoicesText"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "dialog",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"text\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "dialog",
+                "=",
+                "DialogueTree::ClippedLineText()"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "Variable(text_scroll_speed)",
+                    "\"text_scroll\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DialogueTree::ScrollClippedText"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"text_scroll\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "CCbody",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DialogueTree::HasClippedTextScrollingCompleted"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DialogueTree::GoToNextLine"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Return"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "text_scroll_speed",
+                "=",
+                "0.02"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"options\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "questionChoicesText",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Down"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DialogueTree::SelectNextOption"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Up"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DialogueTree::SelectPreviousOption"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "z"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DialogueTree::ConfirmSelectOption"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "questionChoicesText"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DialogueTree::HasSelectedOptionChanged"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "questionChoicesText",
+                    "=",
+                    "DialogueTree::VerticalOptionsList(\">\")"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::CurrentBranchContainsTag"
+              },
+              "parameters": [
+                "\"end\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "dialog"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DialogueTree::HasClippedTextScrollingCompleted"
+          },
+          "parameters": [],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "DialogueTree::IsDialogueLineType"
+          },
+          "parameters": [
+            "\"text\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVolumeSoundCanal"
+          },
+          "parameters": [
+            "",
+            "2",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "DialogueTree::HasClippedTextScrollingCompleted"
+          },
+          "parameters": [],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "DialogueTree::IsDialogueLineType"
+          },
+          "parameters": [
+            "\"text\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVolumeSoundCanal"
+          },
+          "parameters": [
+            "",
+            "2",
+            "=",
+            "5"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DialogueTree::CurrentBranchContainsTag"
+          },
+          "parameters": [
+            "\"end\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVolumeSoundCanal"
+          },
+          "parameters": [
+            "",
+            "2",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"dev\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "Toggle"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"wake\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "PlayAnimation"
+          },
+          "parameters": [
+            "CCfaces"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangeSprite"
+          },
+          "parameters": [
+            "CCfaces",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "snd\\Randomize2.mp3",
+            "2",
+            "yes",
+            "5",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "credits"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"slider\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Montre"
+          },
+          "parameters": [
+            "Toggle",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": true,
+      "name": "TOGGLE",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
+              },
+              "parameters": [
+                "Toggle",
+                "ToggleSwitch",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::CurrentBranchContainsTag"
+              },
+              "parameters": [
+                "\"Oh\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Oh",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "Oh_FocusQuest",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
+              },
+              "parameters": [
+                "Toggle",
+                "ToggleSwitch",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::CurrentBranchContainsTag"
+              },
+              "parameters": [
+                "\"Oh\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Oh",
+                "=",
+                "-1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "Oh_FocusQuest"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
+              },
+              "parameters": [
+                "Toggle",
+                "ToggleSwitch",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::CurrentBranchContainsTag"
+              },
+              "parameters": [
+                "\"Ol\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Ol",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "Ol_BizarreIdeaQuest"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
+              },
+              "parameters": [
+                "Toggle",
+                "ToggleSwitch",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::CurrentBranchContainsTag"
+              },
+              "parameters": [
+                "\"Ol\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Ol",
+                "=",
+                "-1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "Ol_BizarreIdeaQuest",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
+              },
+              "parameters": [
+                "Toggle",
+                "ToggleSwitch",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::CurrentBranchContainsTag"
+              },
+              "parameters": [
+                "\"Ch\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Ch",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "Ch_PerfectionismQuest",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
+              },
+              "parameters": [
+                "Toggle",
+                "ToggleSwitch",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::CurrentBranchContainsTag"
+              },
+              "parameters": [
+                "\"Ch\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Ch",
+                "=",
+                "-1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "Ch_PerfectionismQuest"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
+              },
+              "parameters": [
+                "Toggle",
+                "ToggleSwitch",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::CurrentBranchContainsTag"
+              },
+              "parameters": [
+                "\"Cl\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Cl",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "Cl_MotivationQuest"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
+              },
+              "parameters": [
+                "Toggle",
+                "ToggleSwitch",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::CurrentBranchContainsTag"
+              },
+              "parameters": [
+                "\"Cl\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Cl",
+                "=",
+                "-1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "Cl_MotivationQuest",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
+              },
+              "parameters": [
+                "Toggle",
+                "ToggleSwitch",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::CurrentBranchContainsTag"
+              },
+              "parameters": [
+                "\"Eh\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Eh",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "Eh_FacilitatorQuest",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
+              },
+              "parameters": [
+                "Toggle",
+                "ToggleSwitch",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::CurrentBranchContainsTag"
+              },
+              "parameters": [
+                "\"Eh\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Eh",
+                "=",
+                "-1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "Eh_FacilitatorQuest"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
+              },
+              "parameters": [
+                "Toggle",
+                "ToggleSwitch",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::CurrentBranchContainsTag"
+              },
+              "parameters": [
+                "\"El\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "El",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "El_StimulationToleranceQuest"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
+              },
+              "parameters": [
+                "Toggle",
+                "ToggleSwitch",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::CurrentBranchContainsTag"
+              },
+              "parameters": [
+                "\"El\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "El",
+                "=",
+                "-1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "El_StimulationToleranceQuest",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
+              },
+              "parameters": [
+                "Toggle",
+                "ToggleSwitch",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::CurrentBranchContainsTag"
+              },
+              "parameters": [
+                "\"Ah\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Ah",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "Ah_ToughDecisionQuest2",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
+              },
+              "parameters": [
+                "Toggle",
+                "ToggleSwitch",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::CurrentBranchContainsTag"
+              },
+              "parameters": [
+                "\"Ah\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Ah",
+                "=",
+                "-1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "Ah_ToughDecisionQuest2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
+              },
+              "parameters": [
+                "Toggle",
+                "ToggleSwitch",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::CurrentBranchContainsTag"
+              },
+              "parameters": [
+                "\"Al\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Al",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "Al_SkepticQuest"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
+              },
+              "parameters": [
+                "Toggle",
+                "ToggleSwitch",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::CurrentBranchContainsTag"
+              },
+              "parameters": [
+                "\"Al\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Al",
+                "=",
+                "-1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "Al_SkepticQuest",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
+              },
+              "parameters": [
+                "Toggle",
+                "ToggleSwitch",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::CurrentBranchContainsTag"
+              },
+              "parameters": [
+                "\"Nh\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Nh",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "Nh_StressDepressionQuest",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
+              },
+              "parameters": [
+                "Toggle",
+                "ToggleSwitch",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::CurrentBranchContainsTag"
+              },
+              "parameters": [
+                "\"Nh\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Nh",
+                "=",
+                "-1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "Nh_StressDepressionQuest"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
+              },
+              "parameters": [
+                "Toggle",
+                "ToggleSwitch",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::CurrentBranchContainsTag"
+              },
+              "parameters": [
+                "\"Nl\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Nl",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "Nl_ThreatUnderestimationQuest"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
+              },
+              "parameters": [
+                "Toggle",
+                "ToggleSwitch",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::CurrentBranchContainsTag"
+              },
+              "parameters": [
+                "\"Nl\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Nl",
+                "=",
+                "-1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "Nl_ThreatUnderestimationQuest",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 36,
+      "ambientLightColorG": 6916416,
+      "ambientLightColorR": 32,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453632,
+      "ambientLightColorG": 7364336,
+      "ambientLightColorR": 3,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Box",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453632,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 11,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Bootup",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453632,
+      "ambientLightColorG": 8376448,
+      "ambientLightColorR": 8370584,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "dev",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "ToggleSwitch",
+      "type": "ToggleSwitch::ToggleSwitch"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    }
+  ]
+}

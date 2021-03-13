@@ -1,0 +1,356 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "projectUuid": "40a45cc2-c56e-46a0-bd3b-6abba4857181",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Companion Cub",
+    "author": "Scott Jacobson",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "showGDevelopSplash": true
+    },
+    "extensionProperties": [],
+    "extensions": [
+      {
+        "name": "BuiltinObject"
+      },
+      {
+        "name": "BuiltinAudio"
+      },
+      {
+        "name": "BuiltinVariables"
+      },
+      {
+        "name": "BuiltinTime"
+      },
+      {
+        "name": "BuiltinMouse"
+      },
+      {
+        "name": "BuiltinKeyboard"
+      },
+      {
+        "name": "BuiltinJoystick"
+      },
+      {
+        "name": "BuiltinCamera"
+      },
+      {
+        "name": "BuiltinWindow"
+      },
+      {
+        "name": "BuiltinFile"
+      },
+      {
+        "name": "BuiltinNetwork"
+      },
+      {
+        "name": "BuiltinScene"
+      },
+      {
+        "name": "BuiltinAdvanced"
+      },
+      {
+        "name": "Sprite"
+      },
+      {
+        "name": "BuiltinCommonInstructions"
+      },
+      {
+        "name": "BuiltinCommonConversions"
+      },
+      {
+        "name": "BuiltinStringInstructions"
+      },
+      {
+        "name": "BuiltinMathematicalTools"
+      },
+      {
+        "name": "BuiltinExternalLayouts"
+      }
+    ],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "snd/Randomize2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "snd\\Randomize2.mp3",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/cc/1cc_2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\cc\\1cc_2-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/cc/1cc_2-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\cc\\1cc_2-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/cc/1cc_2-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\cc\\1cc_2-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/cc/1cc_2-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\cc\\1cc_2-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "music/1 Eden (mastered).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "music\\1 Eden (mastered).mp3",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\box.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/trans-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\trans-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "gfx/Bimbo_JVE.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "gfx\\Bimbo_JVE.ttf",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "dialog/ccboot.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "dialog\\ccboot.json",
+        "userAdded": true
+      },
+      {
+        "file": "snd/poptype.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "snd\\poptype.mp3",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/cc/body.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\cc\\body.png",
+        "smoothed": false,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [
+    {
+      "name": "CCfaces",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "1cc_2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\cc\\1cc_2-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\cc\\1cc_2-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\cc\\1cc_2-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\cc\\1cc_2-4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "Oh",
+      "value": ""
+    },
+    {
+      "name": "Ch",
+      "value": ""
+    },
+    {
+      "name": "Eh",
+      "value": ""
+    },
+    {
+      "name": "Ah",
+      "value": ""
+    },
+    {
+      "name": "Nh",
+      "value": ""
+    },
+    {
+      "name": "Ol",
+      "value": ""
+    },
+    {
+      "name": "Cl",
+      "value": ""
+    },
+    {
+      "name": "El",
+      "value": ""
+    },
+    {
+      "name": "Al",
+      "value": ""
+    },
+    {
+      "name": "Nl",
+      "value": ""
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/boot"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/main"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/toggleswitch"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
