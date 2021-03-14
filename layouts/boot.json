@@ -22,7 +22,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.496
+    "zoomFactor": 0.376
   },
   "objectsGroups": [
     {
@@ -75,22 +75,6 @@
       "x": 608,
       "y": 222,
       "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 256,
-      "layer": "",
-      "locked": false,
-      "name": "CCbody",
-      "persistentUuid": "53617aae-ec45-4c33-98ef-9d4782fc6447",
-      "width": 160,
-      "x": 576,
-      "y": 318,
-      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -200,8 +184,8 @@
       "name": "keyInput",
       "persistentUuid": "2d20219a-ef8f-4b52-8cc0-8cdc89e66416",
       "width": 256,
-      "x": 960,
-      "y": 640,
+      "x": 1280,
+      "y": 256,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -369,61 +353,38 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 32,
       "layer": "",
       "locked": false,
       "name": "credits",
       "persistentUuid": "3c54c486-ff22-483f-bd78-0c9e7f8e6de6",
-      "width": 0,
-      "x": 544,
-      "y": 640,
+      "width": 896,
+      "x": 224,
+      "y": 672,
       "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 288,
+      "layer": "",
+      "locked": false,
+      "name": "CCBody",
+      "persistentUuid": "fdf2f615-e96f-4424-9491-b0404ed1fa71",
+      "width": 160,
+      "x": 576,
+      "y": 320,
+      "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     }
   ],
   "objects": [
-    {
-      "name": "CCbody",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewObject",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "gfx\\cc\\body.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
     {
       "name": "window",
       "tags": "",
@@ -529,44 +490,6 @@
         "b": 0,
         "g": 255,
         "r": 225
-      }
-    },
-    {
-      "bold": true,
-      "italic": false,
-      "name": "dialog",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "Text",
-      "font": "gfx\\Bimbo_JVE.ttf",
-      "characterSize": 20,
-      "color": {
-        "b": 0,
-        "g": 255,
-        "r": 225
-      }
-    },
-    {
-      "bold": true,
-      "italic": false,
-      "name": "questionChoicesText",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "Text",
-      "font": "gfx\\Bimbo_JVE.ttf",
-      "characterSize": 20,
-      "color": {
-        "b": 0,
-        "g": 255,
-        "r": 255
       }
     },
     {
@@ -801,15 +724,54 @@
       "variables": [],
       "behaviors": [],
       "content": {
-        "text": "[outline=gray]\nproducer:   JeTSpice Games\nresearcher:   Thomas Lafferty\nprogrammer:   Scott Jacobson\n[/outline]",
+        "text": "[outline=gray]producer:   JeTSpice Games     research:   Thomas Lafferty     programming/concept:   Scott Jacobson     music: Fallon Braddy[/outline]",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
-        "color": "#dddbd4",
+        "color": "#ffff00",
         "fontFamily": "gfx\\Bimbo_JVE.ttf",
         "align": "center",
         "wordWrap": true
       }
+    },
+    {
+      "name": "CCBody",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\cc\\body.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -1132,7 +1094,7 @@
               "parameters": [
                 "text_scroll_speed",
                 "=",
-                "0.05"
+                "0.025"
               ],
               "subInstructions": []
             },
@@ -1254,7 +1216,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "CCbody",
+                    "CCBody",
                     "",
                     "",
                     ""
@@ -1310,7 +1272,7 @@
               "parameters": [
                 "text_scroll_speed",
                 "=",
-                "0.02"
+                "0.01"
               ],
               "subInstructions": []
             }
@@ -1749,7 +1711,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "TOGGLE",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2843,17 +2805,71 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::CurrentBranchContainsTag"
+              },
+              "parameters": [
+                "\"quests\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Chooser\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::CurrentBranchContainsTag"
+              },
+              "parameters": [
+                "\"hidetoggle\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "Toggle"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "parameters": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
-      "events": []
     }
   ],
   "layers": [

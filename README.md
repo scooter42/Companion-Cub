@@ -1,6 +1,11 @@
 Companion Cub
-a game to improve peronal resiliency
+
+a game made in GDevelop to improve personal resiliency
 
 programmer & concept: Scott Jacobson
+
 researcher: Thomas Lafferty
+
 producer/consultant: Jeff Spicer
+
+music: Fallon Braddy

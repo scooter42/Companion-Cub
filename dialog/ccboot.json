@@ -42,7 +42,7 @@
 	{
 		"title": "D1_4",
 		"tags": "",
-		"body": "<<slider>>\nPlease use the slider below to answer my next questions. \nYour most honest answers will help me help you better.\nClick on the RED toggle to turn GREEN when you AGREE.\nClick on the GREEN toggle to turn RED when you DISAGREE.[[D1_5|D1_5]]",
+		"body": "<<slider>>\nPlease use the slider below to answer my next questions. \nYour most honest answers will help me help you better.\nClick on the RED toggle to turn GREEN when you AGREE.\nClick on the GREEN toggle to turn RED when you DISAGREE.[[D1_9|D1_9]]",
 		"position": {
 			"x": -1246,
 			"y": -761
@@ -56,46 +56,6 @@
 		"position": {
 			"x": -1487,
 			"y": -765
-		},
-		"colorID": 0
-	},
-	{
-		"title": "D1_5",
-		"tags": "",
-		"body": "[[D1_6|D1_6]]",
-		"position": {
-			"x": -1030,
-			"y": -755
-		},
-		"colorID": 0
-	},
-	{
-		"title": "D1_6",
-		"tags": "",
-		"body": "[[D1_7|D1_7]]",
-		"position": {
-			"x": -811,
-			"y": -753
-		},
-		"colorID": 8
-	},
-	{
-		"title": "D1_7",
-		"tags": "",
-		"body": "[[D1_8|D1_8]]",
-		"position": {
-			"x": -591,
-			"y": -753
-		},
-		"colorID": 0
-	},
-	{
-		"title": "D1_8",
-		"tags": "",
-		"body": "[[D1_9|D1_9]]",
-		"position": {
-			"x": -365,
-			"y": -757
 		},
 		"colorID": 0
 	},
@@ -201,18 +161,18 @@
 	},
 	{
 		"title": "D1_19",
-		"tags": "",
-		"body": "[[D1_20|D1_20]]",
+		"tags": "hidetoggle",
+		"body": "Thank you so much for your honest answers. I am now generating quests for us to play that will help me help you be all that you can be.\n. ..  ...   ....    .....\nplease stand by . . .\n.....     ....    ...   ..  . \nClick the badge that corresponds to the Quest you choose...\n[[D1_20|D1_20]]",
 		"position": {
-			"x": -2214,
-			"y": -323
+			"x": -2215,
+			"y": -321
 		},
 		"colorID": 0
 	},
 	{
 		"title": "D1_20",
-		"tags": "",
-		"body": "[[D1_21|D1_21]]",
+		"tags": "quests",
+		"body": "...\n[[D1_21|D1_21]]",
 		"position": {
 			"x": -1963,
 			"y": -318

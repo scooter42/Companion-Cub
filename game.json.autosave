@@ -173,14 +173,6 @@
         "userAdded": true
       },
       {
-        "disablePreload": false,
-        "file": "dialog/ccboot.json",
-        "kind": "json",
-        "metadata": "",
-        "name": "dialog\\ccboot.json",
-        "userAdded": true
-      },
-      {
         "file": "snd/poptype.mp3",
         "kind": "audio",
         "metadata": "",
@@ -194,6 +186,104 @@
         "metadata": "",
         "name": "gfx\\cc\\body.png",
         "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/cc/body-L.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\cc\\body-L.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/cc/body-R.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\cc\\body-R.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/badges/appropriate.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\badges\\appropriate.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/badges/goal-setting.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\badges\\goal-setting.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/badges/inspections.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\badges\\inspections.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/badges/motivation.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\badges\\motivation.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/wall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\wall.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/wall-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\wall-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/wall-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\wall-1-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/screen.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\screen.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "dialog/ccboot.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "dialog\\ccboot.json",
         "userAdded": true
       }
     ],
@@ -289,6 +379,308 @@
           ]
         }
       ]
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "dialog",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "gfx\\Bimbo_JVE.ttf",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 255,
+        "r": 225
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "questionChoicesText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "gfx\\Bimbo_JVE.ttf",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "name": "bodyLeft",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\cc\\body-L.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BodyRight",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\cc\\body-R.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "badge1",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\badges\\appropriate.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "badge2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\badges\\goal-setting.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "badge3",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\badges\\inspections.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "badge4",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\badges\\motivation.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsGroups": [],
@@ -359,7 +751,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.496
+        "zoomFactor": 0.376
       },
       "objectsGroups": [
         {
@@ -412,22 +804,6 @@
           "x": 608,
           "y": 222,
           "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 256,
-          "layer": "",
-          "locked": false,
-          "name": "CCbody",
-          "persistentUuid": "53617aae-ec45-4c33-98ef-9d4782fc6447",
-          "width": 160,
-          "x": 576,
-          "y": 318,
-          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -537,8 +913,8 @@
           "name": "keyInput",
           "persistentUuid": "2d20219a-ef8f-4b52-8cc0-8cdc89e66416",
           "width": 256,
-          "x": 960,
-          "y": 640,
+          "x": 1280,
+          "y": 256,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -706,61 +1082,38 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 32,
           "layer": "",
           "locked": false,
           "name": "credits",
           "persistentUuid": "3c54c486-ff22-483f-bd78-0c9e7f8e6de6",
-          "width": 0,
-          "x": 544,
-          "y": 640,
+          "width": 896,
+          "x": 224,
+          "y": 672,
           "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 288,
+          "layer": "",
+          "locked": false,
+          "name": "CCBody",
+          "persistentUuid": "fdf2f615-e96f-4424-9491-b0404ed1fa71",
+          "width": 160,
+          "x": 576,
+          "y": 320,
+          "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
       ],
       "objects": [
-        {
-          "name": "CCbody",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewObject",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "gfx\\cc\\body.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "name": "window",
           "tags": "",
@@ -866,44 +1219,6 @@
             "b": 0,
             "g": 255,
             "r": 225
-          }
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "dialog",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Text",
-          "font": "gfx\\Bimbo_JVE.ttf",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 255,
-            "r": 225
-          }
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "questionChoicesText",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Text",
-          "font": "gfx\\Bimbo_JVE.ttf",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 255,
-            "r": 255
           }
         },
         {
@@ -1138,15 +1453,54 @@
           "variables": [],
           "behaviors": [],
           "content": {
-            "text": "[outline=gray]\nproducer:   JeTSpice Games\nresearcher:   Thomas Lafferty\nprogrammer:   Scott Jacobson\n[/outline]",
+            "text": "[outline=gray]producer:   JeTSpice Games     research:   Thomas Lafferty     programming/concept:   Scott Jacobson     music: Fallon Braddy[/outline]",
             "opacity": 255,
             "fontSize": 20,
             "visible": true,
-            "color": "#dddbd4",
+            "color": "#ffff00",
             "fontFamily": "gfx\\Bimbo_JVE.ttf",
             "align": "center",
             "wordWrap": true
           }
+        },
+        {
+          "name": "CCBody",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "gfx\\cc\\body.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -1469,7 +1823,7 @@
                   "parameters": [
                     "text_scroll_speed",
                     "=",
-                    "0.05"
+                    "0.025"
                   ],
                   "subInstructions": []
                 },
@@ -1591,7 +1945,7 @@
                         "value": "SourisSurObjet"
                       },
                       "parameters": [
-                        "CCbody",
+                        "CCBody",
                         "",
                         "",
                         ""
@@ -1647,7 +2001,7 @@
                   "parameters": [
                     "text_scroll_speed",
                     "=",
-                    "0.02"
+                    "0.01"
                   ],
                   "subInstructions": []
                 }
@@ -1968,6 +2322,16 @@
                 "\"dev\""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "Toggle"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -2076,7 +2440,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "TOGGLE",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3170,17 +3534,71 @@
                 }
               ],
               "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DialogueTree::CurrentBranchContainsTag"
+                  },
+                  "parameters": [
+                    "\"quests\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Chooser\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DialogueTree::CurrentBranchContainsTag"
+                  },
+                  "parameters": [
+                    "\"hidetoggle\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Toggle"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ],
           "parameters": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
         }
       ],
       "layers": [
@@ -3254,8 +3672,8 @@
     {
       "b": 0,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Main",
-      "name": "Main",
+      "mangledName": "Chooser",
+      "name": "Chooser",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
@@ -3265,7 +3683,7 @@
       "title": "",
       "v": 0,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridB": 255,
         "gridG": 180,
         "gridHeight": 32,
@@ -3275,13 +3693,228 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.544
+        "zoomFactor": 1.072
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 256,
+          "layer": "",
+          "locked": false,
+          "name": "CCfaces",
+          "persistentUuid": "3f990a0a-2793-42f7-b8b7-f904a840381c",
+          "width": 256,
+          "x": 512,
+          "y": 32,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 448,
+          "layer": "",
+          "locked": false,
+          "name": "bodyLeft",
+          "persistentUuid": "fa88609b-19ae-4e6e-b022-245b81364cd8",
+          "width": 416,
+          "x": 224,
+          "y": 288,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 448,
+          "layer": "",
+          "locked": false,
+          "name": "BodyRight",
+          "persistentUuid": "7994e9ce-eaa9-414c-b347-63f0343b62a6",
+          "width": 416,
+          "x": 640,
+          "y": 288,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "badge1",
+          "persistentUuid": "2474fb0b-16ec-427b-a1c3-2f1c49200b0b",
+          "width": 64,
+          "x": 439,
+          "y": 381,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "badge2",
+          "persistentUuid": "42e983ee-bb70-4795-b359-f6e00b7a667c",
+          "width": 0,
+          "x": 550,
+          "y": 381,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "badge3",
+          "persistentUuid": "f90b7dd4-e1fe-4e91-b8ea-d3f6a6e5ef07",
+          "width": 0,
+          "x": 667,
+          "y": 381,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "badge4",
+          "persistentUuid": "c9bd7d90-c2dd-481a-afa8-76704678eb85",
+          "width": 0,
+          "x": 778,
+          "y": 381,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
       "objects": [],
-      "events": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "badge1",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Quest1\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "badge2",
+                "=",
+                "42"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "badge3",
+                "=",
+                "42"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "badge4",
+                "=",
+                "42"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 0,
@@ -3303,10 +3936,294 @@
               "width": 0
             }
           ],
+          "effects": [
+            {
+              "effectType": "BlackAndWhite",
+              "name": "Effect",
+              "doubleParameters": {
+                "opacity": 1
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 0,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Quest1",
+      "name": "Quest1",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 0,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 0,
+      "uiSettings": {
+        "grid": true,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 0.616
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 736,
+          "layer": "",
+          "locked": false,
+          "name": "bodyLeft",
+          "persistentUuid": "a5eea4f4-d031-43fb-bf6b-9bd25a55347e",
+          "width": 448,
+          "x": -32,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 736,
+          "layer": "",
+          "locked": false,
+          "name": "BodyRight",
+          "persistentUuid": "50c9e9ca-841e-430b-b88e-1fc927a9efec",
+          "width": 448,
+          "x": 864,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "badge1",
+          "persistentUuid": "ed06b6af-d889-4ccc-93d2-54ee08b04c36",
+          "width": 64,
+          "x": 206,
+          "y": 173,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 736,
+          "layer": "",
+          "locked": false,
+          "name": "screen",
+          "persistentUuid": "f574c4ac-794b-4977-a441-6e9de73a7d4f",
+          "width": 768,
+          "x": 256,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Quest1",
+          "persistentUuid": "d860eaf7-b029-4c06-a646-f942548f271b",
+          "width": 0,
+          "x": 128,
+          "y": 0,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "screen",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "wall",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "gfx\\screen.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Quest1",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "behaviors": [],
+          "content": {
+            "text": "QUEST 1",
+            "opacity": 255,
+            "fontSize": 40,
+            "visible": true,
+            "color": "#ffff00",
+            "fontFamily": "gfx\\Bimbo_JVE.ttf",
+            "align": "left",
+            "wordWrap": false
+          }
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectPositionXTween"
+              },
+              "parameters": [
+                "bodyLeft",
+                "Tween",
+                "",
+                "-192",
+                "\"linear\"",
+                "1500",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectPositionXTween"
+              },
+              "parameters": [
+                "BodyRight",
+                "Tween",
+                "",
+                "1024",
+                "\"linear\"",
+                "1500",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectPositionXTween"
+              },
+              "parameters": [
+                "badge1",
+                "Tween",
+                "",
+                "48",
+                "\"linear\"",
+                "1500",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 8604488,
+          "ambientLightColorG": 8582680,
+          "ambientLightColorR": 6548600,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
           "effects": []
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
     }
   ],
   "externalEvents": [],

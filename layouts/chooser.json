@@ -1,0 +1,287 @@
+{
+  "b": 0,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Chooser",
+  "name": "Chooser",
+  "oglFOV": 90,
+  "oglZFar": 500,
+  "oglZNear": 1,
+  "r": 0,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 0,
+  "uiSettings": {
+    "grid": true,
+    "gridB": 255,
+    "gridG": 180,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridR": 158,
+    "gridWidth": 32,
+    "snap": true,
+    "windowMask": false,
+    "zoomFactor": 1.072
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 256,
+      "layer": "",
+      "locked": false,
+      "name": "CCfaces",
+      "persistentUuid": "3f990a0a-2793-42f7-b8b7-f904a840381c",
+      "width": 256,
+      "x": 512,
+      "y": 32,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 448,
+      "layer": "",
+      "locked": false,
+      "name": "bodyLeft",
+      "persistentUuid": "fa88609b-19ae-4e6e-b022-245b81364cd8",
+      "width": 416,
+      "x": 224,
+      "y": 288,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 448,
+      "layer": "",
+      "locked": false,
+      "name": "BodyRight",
+      "persistentUuid": "7994e9ce-eaa9-414c-b347-63f0343b62a6",
+      "width": 416,
+      "x": 640,
+      "y": 288,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "locked": false,
+      "name": "badge1",
+      "persistentUuid": "2474fb0b-16ec-427b-a1c3-2f1c49200b0b",
+      "width": 64,
+      "x": 439,
+      "y": 381,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "badge2",
+      "persistentUuid": "42e983ee-bb70-4795-b359-f6e00b7a667c",
+      "width": 0,
+      "x": 550,
+      "y": 381,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "badge3",
+      "persistentUuid": "f90b7dd4-e1fe-4e91-b8ea-d3f6a6e5ef07",
+      "width": 0,
+      "x": 667,
+      "y": 381,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "badge4",
+      "persistentUuid": "c9bd7d90-c2dd-481a-afa8-76704678eb85",
+      "width": 0,
+      "x": 778,
+      "y": 381,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [],
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "badge1",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"Quest1\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "badge2",
+            "=",
+            "42"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "badge3",
+            "=",
+            "42"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "badge4",
+            "=",
+            "42"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 0,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 32,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "BlackAndWhite",
+          "name": "Effect",
+          "doubleParameters": {
+            "opacity": 1
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ]
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    }
+  ]
+}
