@@ -2924,7 +2924,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "dev",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": []
     }
