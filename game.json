@@ -380,6 +380,319 @@
         "metadata": "",
         "name": "gfx\\Q1\\Q1snd\\1.mp3",
         "userAdded": true
+      },
+      {
+        "file": "gfx/Q1/Q1snd/2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gfx\\Q1\\Q1snd\\2.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "gfx/Q1/Q1snd/3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gfx\\Q1\\Q1snd\\3.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "gfx/Q1/Q1snd/4.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gfx\\Q1\\Q1snd\\4.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "gfx/Q1/Q1snd/2 Balloons (Bb) - Sparse.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gfx\\Q1\\Q1snd\\2 Balloons (Bb) - Sparse.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "gfx/Q1/Q1snd/3 In Bb - DS.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gfx\\Q1\\Q1snd\\3 In Bb - DS.mp3",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/Q1/2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\Q1\\2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/Q1/3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\Q1\\3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/Q1/4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\Q1\\4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/Q1/5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\Q1\\5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/Q1/6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\Q1\\6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/Q1/7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\Q1\\7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/Q1/8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\Q1\\8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/Q1/9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\Q1\\9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/Q1/10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\Q1\\10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/Q1/11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\Q1\\11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/Q1/12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\Q1\\12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/Q1/13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\Q1\\13.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/Q1/14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\Q1\\14.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "gfx/Q1/Q1snd/4 In Bb - Ebow.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gfx\\Q1\\Q1snd\\4 In Bb - Ebow.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "gfx/Q1/Q1snd/5 In Bb - Electric Bass 2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gfx\\Q1\\Q1snd\\5 In Bb - Electric Bass 2.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "gfx/Q1/Q1snd/6 In Bb - Guitar.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gfx\\Q1\\Q1snd\\6 In Bb - Guitar.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "gfx/Q1/Q1snd/7 In Bb - Harmon Trumpet.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gfx\\Q1\\Q1snd\\7 In Bb - Harmon Trumpet.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "gfx/Q1/Q1snd/8 In Bb - Kaoss Pad-Synth.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gfx\\Q1\\Q1snd\\8 In Bb - Kaoss Pad-Synth.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "gfx/Q1/Q1snd/9 In Bb - Mallets 1.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gfx\\Q1\\Q1snd\\9 In Bb - Mallets 1.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "gfx/Q1/Q1snd/10 In Bb - Rhodes.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gfx\\Q1\\Q1snd\\10 In Bb - Rhodes.mp3",
+        "userAdded": false
+      },
+      {
+        "file": "gfx/Q1/Q1snd/11 In Bb - Vocals.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gfx\\Q1\\Q1snd\\11 In Bb - Vocals.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "gfx/Q1/Q1snd/12 In Bflat.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gfx\\Q1\\Q1snd\\12 In Bflat.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "gfx/Q1/Q1snd/13 inBb - ELECTRIBE MX.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gfx\\Q1\\Q1snd\\13 inBb - ELECTRIBE MX.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "gfx/Q1/Q1snd/14 Omnichord & Qchord.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gfx\\Q1\\Q1snd\\14 Omnichord & Qchord.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "gfx/Q1/Q1snd/5.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gfx\\Q1\\Q1snd\\5.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "gfx/Q1/Q1snd/6.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gfx\\Q1\\Q1snd\\6.mp3",
+        "userAdded": false
+      },
+      {
+        "file": "gfx/Q1/Q1snd/7.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gfx\\Q1\\Q1snd\\7.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "gfx/Q1/Q1snd/8.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gfx\\Q1\\Q1snd\\8.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "gfx/Q1/Q1snd/9.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gfx\\Q1\\Q1snd\\9.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "gfx/Q1/Q1snd/10.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gfx\\Q1\\Q1snd\\10.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "gfx/Q1/Q1snd/11.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gfx\\Q1\\Q1snd\\11.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "gfx/Q1/Q1snd/12.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gfx\\Q1\\Q1snd\\12.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "gfx/Q1/Q1snd/13.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gfx\\Q1\\Q1snd\\13.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "gfx/Q1/Q1snd/14.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gfx\\Q1\\Q1snd\\14.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "gfx/Q1/Q1snd/15.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gfx\\Q1\\Q1snd\\15.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "gfx/Q1/Q1snd/16.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gfx\\Q1\\Q1snd\\16.mp3",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
