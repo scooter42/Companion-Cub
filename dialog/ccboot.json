@@ -42,7 +42,7 @@
 	{
 		"title": "D1_4",
 		"tags": "",
-		"body": "<<slider>>\nPlease use the slider below to answer my next questions. \nYour most honest answers will help me help you better.\nClick on the RED toggle to turn GREEN when you AGREE.\nClick on the GREEN toggle to turn RED when you DISAGREE.[[D1_9|D1_9]]",
+		"body": "<<slider>>\nPlease click the colored toggle to answer my next questions. \nYour most honest answers will help me help you better.\nClick on the RED toggle to turn GREEN when you AGREE.\nClick on the GREEN toggle to turn RED when you DISAGREE.[[D1_9|D1_9]]",
 		"position": {
 			"x": -1246,
 			"y": -761

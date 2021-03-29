@@ -1,0 +1,24 @@
+{
+  "associatedLayout": "Quest1",
+  "lastChangeTimeStamp": 0,
+  "name": "filepicker",
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::JsCode",
+      "inlineCode": "//Get scene variables\nvar fnum = runtimeScene.getVariables().get(\"filenum\").getAsString();\n\npickandplay(fnum);\n \n// say a message\nfunction pickandplay(fnum) {\n    // get the sound manager \n    var sound_manager = runtimeScene.getGame().getSoundManager();\n    // play random sound, channel = 20, loop = false, volume = 25, pitch = 1.2\n    sound_manager.playSoundOnChannel(fnum + \".mp3\", 20, false, 25, 1.2);\n\n}",
+      "parameterObjects": "",
+      "useStrict": true,
+      "eventsSheetExpanded": true
+    }
+  ]
+}

@@ -22,7 +22,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 1.072
+    "zoomFactor": 1.192
   },
   "objectsGroups": [],
   "variables": [],
@@ -84,8 +84,8 @@
       "name": "badge1",
       "persistentUuid": "2474fb0b-16ec-427b-a1c3-2f1c49200b0b",
       "width": 64,
-      "x": 439,
-      "y": 381,
+      "x": 440,
+      "y": 378,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -101,7 +101,7 @@
       "persistentUuid": "42e983ee-bb70-4795-b359-f6e00b7a667c",
       "width": 64,
       "x": 550,
-      "y": 381,
+      "y": 378,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -117,7 +117,7 @@
       "persistentUuid": "f90b7dd4-e1fe-4e91-b8ea-d3f6a6e5ef07",
       "width": 64,
       "x": 667,
-      "y": 381,
+      "y": 378,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -133,8 +133,120 @@
       "persistentUuid": "c9bd7d90-c2dd-481a-afa8-76704678eb85",
       "width": 64,
       "x": 778,
-      "y": 381,
+      "y": 378,
       "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "locked": false,
+      "name": "badge7",
+      "persistentUuid": "82f8e3c2-72ef-4a40-b7ef-6aac8afb66a9",
+      "width": 64,
+      "x": 667,
+      "y": 475,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "locked": false,
+      "name": "badge5",
+      "persistentUuid": "c3b6a193-c95c-4437-a234-502c99d32064",
+      "width": 64,
+      "x": 440,
+      "y": 482,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "locked": false,
+      "name": "badge6",
+      "persistentUuid": "11059b11-1f78-4075-b474-f096912c31bb",
+      "width": 64,
+      "x": 550,
+      "y": 475,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "locked": false,
+      "name": "badge8",
+      "persistentUuid": "d0de7024-d24c-49e8-8f92-d37e1d3cda3c",
+      "width": 64,
+      "x": 778,
+      "y": 475,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "locked": false,
+      "name": "badge9",
+      "persistentUuid": "7f1ee8f1-8aa7-4e97-944a-2206897dc21e",
+      "width": 64,
+      "x": 440,
+      "y": 576,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "locked": false,
+      "name": "badge10",
+      "persistentUuid": "7b7ef411-a25b-407d-ab8b-5234c093a1dc",
+      "width": 64,
+      "x": 550,
+      "y": 576,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "locked": false,
+      "name": "badge5",
+      "persistentUuid": "03f449d1-3487-4922-94ec-be5f7d9329b8",
+      "width": 64,
+      "x": 440,
+      "y": 478,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -153,7 +265,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "badge1",
+            "badge7",
             "",
             "",
             ""
@@ -210,6 +322,18 @@
             "value": "Opacity"
           },
           "parameters": [
+            "badge1",
+            "=",
+            "42"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
             "badge2",
             "=",
             "42"
@@ -239,6 +363,66 @@
             "42"
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "badge5",
+            "=",
+            "42"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "badge6",
+            "=",
+            "42"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "badge8",
+            "=",
+            "42"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "badge9",
+            "=",
+            "42"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "badge10",
+            "=",
+            "42"
+          ],
+          "subInstructions": []
         }
       ],
       "events": []
@@ -254,6 +438,16 @@
       "name": "",
       "visibility": true,
       "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        },
         {
           "defaultSize": true,
           "defaultViewport": true,
@@ -279,6 +473,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "ToggleSwitch",
+      "type": "ToggleSwitch::ToggleSwitch"
+    },
     {
       "name": "Tween",
       "type": "Tween::TweenBehavior"

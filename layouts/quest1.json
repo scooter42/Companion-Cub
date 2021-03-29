@@ -22,7 +22,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.496
+    "zoomFactor": 0.64
   },
   "objectsGroups": [
     {
@@ -110,22 +110,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
-      "layer": "",
-      "locked": false,
-      "name": "badge1",
-      "persistentUuid": "ed06b6af-d889-4ccc-93d2-54ee08b04c36",
-      "width": 64,
-      "x": 206,
-      "y": 173,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "height": 736,
       "layer": "",
       "locked": false,
@@ -148,8 +132,8 @@
       "name": "Quest1",
       "persistentUuid": "d860eaf7-b029-4c06-a646-f942548f271b",
       "width": 0,
-      "x": 128,
-      "y": 0,
+      "x": 192,
+      "y": 32,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -165,7 +149,7 @@
       "persistentUuid": "24644a93-64ba-4897-951f-7c65dc26e2bf",
       "width": 64,
       "x": 325,
-      "y": 173,
+      "y": 167,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -181,7 +165,7 @@
       "persistentUuid": "ecf336aa-5059-45eb-86df-06556411ee25",
       "width": 64,
       "x": 896,
-      "y": 173,
+      "y": 167,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -197,7 +181,7 @@
       "persistentUuid": "383babb1-4658-40d7-892a-60d8afedeb02",
       "width": 64,
       "x": 1018,
-      "y": 172,
+      "y": 166,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -207,29 +191,13 @@
       "angle": 0,
       "customSize": true,
       "height": 64,
-      "layer": "",
-      "locked": false,
-      "name": "badge1",
-      "persistentUuid": "5b48d0cb-e44e-4f56-bace-da505da9edd7",
-      "width": 64,
-      "x": 206,
-      "y": 173,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 64,
-      "layer": "",
+      "layer": "grayscale",
       "locked": false,
       "name": "badge1",
       "persistentUuid": "c105ec66-ba9a-4403-a1e8-e32584a435a6",
       "width": 64,
       "x": 206,
-      "y": 173,
+      "y": 167,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -245,7 +213,7 @@
       "persistentUuid": "126c5499-9122-4ebe-8bba-a5055be6c8f4",
       "width": 64,
       "x": 206,
-      "y": 352,
+      "y": 331,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -261,7 +229,7 @@
       "persistentUuid": "eb65c9a5-406c-45a0-8090-a7dff5314721",
       "width": 64,
       "x": 325,
-      "y": 352,
+      "y": 331,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -271,13 +239,13 @@
       "angle": 0,
       "customSize": true,
       "height": 64,
-      "layer": "grayscale",
+      "layer": "",
       "locked": false,
       "name": "badge7",
       "persistentUuid": "595d4892-302c-4ec9-bf06-e302f566d863",
       "width": 64,
       "x": 896,
-      "y": 352,
+      "y": 331,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -293,7 +261,7 @@
       "persistentUuid": "5fb92c07-ae1a-42ba-9339-55a711cbae9d",
       "width": 64,
       "x": 1018,
-      "y": 352,
+      "y": 331,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -309,7 +277,7 @@
       "persistentUuid": "667f6ce2-7dc2-404c-aaab-4ef08e3226bf",
       "width": 64,
       "x": 206,
-      "y": 512,
+      "y": 491,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -325,7 +293,7 @@
       "persistentUuid": "6f62193f-87d2-41c3-b25a-db620b34ea33",
       "width": 64,
       "x": 320,
-      "y": 512,
+      "y": 491,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -420,8 +388,8 @@
       "name": "ball1",
       "persistentUuid": "5f50300a-250a-47ef-ae6c-c1a2b3c35d71",
       "width": 0,
-      "x": 562,
-      "y": 96,
+      "x": 558,
+      "y": 101,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -436,8 +404,8 @@
       "name": "ball2",
       "persistentUuid": "6de3be2b-443e-4f13-abe3-e63fb4ff86db",
       "width": 0,
-      "x": 718,
-      "y": 96,
+      "x": 711,
+      "y": 102,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -452,8 +420,8 @@
       "name": "ball3",
       "persistentUuid": "676976a5-d757-4def-b716-cbdc81d544e3",
       "width": 0,
-      "x": 470,
-      "y": 213,
+      "x": 474,
+      "y": 218,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -468,8 +436,8 @@
       "name": "ball4",
       "persistentUuid": "e5dec2e2-63c3-4509-992e-9d60e699f7a5",
       "width": 0,
-      "x": 794,
-      "y": 213,
+      "x": 795,
+      "y": 219,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -484,8 +452,8 @@
       "name": "ball5",
       "persistentUuid": "e30a592f-a422-43b3-be27-74499b06e63b",
       "width": 0,
-      "x": 355,
-      "y": 278,
+      "x": 364,
+      "y": 277,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -500,8 +468,8 @@
       "name": "ball6",
       "persistentUuid": "76571190-a34d-4b7b-83e4-ac2ade0953a8",
       "width": 0,
-      "x": 913,
-      "y": 276,
+      "x": 910,
+      "y": 277,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -516,8 +484,8 @@
       "name": "ball7",
       "persistentUuid": "209f61a8-7126-4b73-a00a-431b38364804",
       "width": 0,
-      "x": 549,
-      "y": 347,
+      "x": 551,
+      "y": 344,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -532,8 +500,8 @@
       "name": "ball8",
       "persistentUuid": "47572eed-7ba5-4845-8045-7174623a1cf6",
       "width": 0,
-      "x": 721,
-      "y": 341,
+      "x": 718,
+      "y": 344,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -548,8 +516,8 @@
       "name": "ball9",
       "persistentUuid": "43807601-2b6f-4618-b99b-76fdb8027450",
       "width": 0,
-      "x": 364,
-      "y": 428,
+      "x": 361,
+      "y": 427,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -564,8 +532,8 @@
       "name": "ball10",
       "persistentUuid": "602d5ad0-6b00-4489-9cd0-0db9eb3792ce",
       "width": 0,
-      "x": 913,
-      "y": 430,
+      "x": 910,
+      "y": 429,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -580,7 +548,7 @@
       "name": "ball11",
       "persistentUuid": "628493d5-b0e8-4ffc-b313-cff97de8f5ba",
       "width": 0,
-      "x": 475,
+      "x": 473,
       "y": 477,
       "zOrder": 0,
       "numberProperties": [],
@@ -597,7 +565,7 @@
       "persistentUuid": "e7fe33af-ad8c-44e8-85e3-1a943a1e0cab",
       "width": 0,
       "x": 793,
-      "y": 478,
+      "y": 477,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -612,8 +580,8 @@
       "name": "ball13",
       "persistentUuid": "aadcde83-7ce0-4e2a-b986-4db043431a0f",
       "width": 0,
-      "x": 554,
-      "y": 603,
+      "x": 555,
+      "y": 601,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -628,9 +596,41 @@
       "name": "ball14",
       "persistentUuid": "f039e47e-c3c0-4bc6-88d5-7643e5cf656e",
       "width": 0,
-      "x": 714,
-      "y": 603,
+      "x": 713,
+      "y": 602,
       "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 160,
+      "layer": "",
+      "locked": false,
+      "name": "dialog",
+      "persistentUuid": "da3a7a8d-526d-41d9-b02f-fc9b36c17be4",
+      "width": 160,
+      "x": 554,
+      "y": 143,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "phrases",
+      "persistentUuid": "2008e3da-feaf-4d67-8278-95685797382b",
+      "width": 0,
+      "x": 1344,
+      "y": 64,
+      "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -681,7 +681,12 @@
       "tags": "",
       "type": "BBText::BBText",
       "variables": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "content": {
         "text": "QUEST 1",
         "opacity": 255,
@@ -854,7 +859,13 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "CH",
+          "type": "string",
+          "value": "1"
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -893,7 +904,13 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "CH",
+          "type": "string",
+          "value": "2"
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -932,7 +949,13 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "CH",
+          "type": "string",
+          "value": "14"
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -971,7 +994,13 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "CH",
+          "type": "string",
+          "value": "13"
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -1010,7 +1039,13 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "CH",
+          "type": "string",
+          "value": "12"
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -1049,7 +1084,13 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "CH",
+          "type": "string",
+          "value": "11"
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -1088,7 +1129,13 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "CH",
+          "type": "string",
+          "value": "10"
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -1127,7 +1174,13 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "CH",
+          "type": "string",
+          "value": "9"
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -1166,7 +1219,13 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "CH",
+          "type": "string",
+          "value": "8"
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -1205,7 +1264,13 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "CH",
+          "type": "string",
+          "value": "7"
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -1244,7 +1309,13 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "CH",
+          "type": "string",
+          "value": "6"
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -1283,7 +1354,13 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "CH",
+          "type": "string",
+          "value": "5"
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -1322,7 +1399,13 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "CH",
+          "type": "string",
+          "value": "4"
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -1361,7 +1444,13 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "CH",
+          "type": "string",
+          "value": "3"
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -1394,2235 +1483,963 @@
           ]
         }
       ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "phrases",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [
+        {
+          "name": "pick",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "phrase",
+          "type": "structure",
+          "children": [
+            {
+              "name": "1",
+              "type": "string",
+              "value": "Take your time."
+            },
+            {
+              "name": "10",
+              "type": "string",
+              "value": "It will pass. Just keep breathing."
+            },
+            {
+              "name": "11",
+              "type": "string",
+              "value": "I’m sorry you are struggling with this."
+            },
+            {
+              "name": "12",
+              "type": "string",
+              "value": "It’s OK to feel this way."
+            },
+            {
+              "name": "13",
+              "type": "string",
+              "value": "We have all the time in the world."
+            },
+            {
+              "name": "14",
+              "type": "string",
+              "value": "You are not crazy."
+            },
+            {
+              "name": "15",
+              "type": "string",
+              "value": "You’re fine, everything’s fine."
+            },
+            {
+              "name": "16",
+              "type": "string",
+              "value": "Let’s go get some fresh air."
+            },
+            {
+              "name": "2",
+              "type": "string",
+              "value": "I understand it’s something that you can’t control."
+            },
+            {
+              "name": "3",
+              "type": "string",
+              "value": "You won’t feel this way forever, I promise."
+            },
+            {
+              "name": "4",
+              "type": "string",
+              "value": "It’s not your fault."
+            },
+            {
+              "name": "5",
+              "type": "string",
+              "value": "You will always be enough."
+            },
+            {
+              "name": "6",
+              "type": "string",
+              "value": "You’re not imagining this."
+            },
+            {
+              "name": "7",
+              "type": "string",
+              "value": "Do you need a break?"
+            },
+            {
+              "name": "8",
+              "type": "string",
+              "value": "You are stronger than anything you are afraid of."
+            },
+            {
+              "name": "9",
+              "type": "string",
+              "value": "Try to focus your energy on what you can control."
+            }
+          ]
+        }
+      ],
+      "behaviors": [],
+      "string": "phrases",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 247,
+        "r": 255
+      }
     }
   ],
   "events": [
     {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
       "disabled": false,
       "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+      "name": "Start",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
-          "type": {
-            "inverted": false,
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
           ],
-          "subInstructions": []
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectPositionXTween"
+              },
+              "parameters": [
+                "BodyRight",
+                "Tween",
+                "",
+                "1024",
+                "\"linear\"",
+                "1500",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectPositionXTween"
+              },
+              "parameters": [
+                "bodyLeft",
+                "Tween",
+                "",
+                "-192",
+                "\"linear\"",
+                "1500",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectPositionXTween"
+              },
+              "parameters": [
+                "Quest1",
+                "Tween",
+                "",
+                "32",
+                "\"linear\"",
+                "1500",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectPositionXTween"
+              },
+              "parameters": [
+                "badge1",
+                "Tween",
+                "",
+                "48",
+                "\"linear\"",
+                "1500",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectPositionXTween"
+              },
+              "parameters": [
+                "badge5",
+                "Tween",
+                "",
+                "48",
+                "\"linear\"",
+                "1500",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectPositionXTween"
+              },
+              "parameters": [
+                "badge9",
+                "Tween",
+                "",
+                "48",
+                "\"linear\"",
+                "1500",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectPositionXTween"
+              },
+              "parameters": [
+                "badge2",
+                "Tween",
+                "",
+                "165",
+                "\"linear\"",
+                "1500",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectPositionXTween"
+              },
+              "parameters": [
+                "badge6",
+                "Tween",
+                "",
+                "165",
+                "\"linear\"",
+                "1500",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectPositionXTween"
+              },
+              "parameters": [
+                "badge10",
+                "Tween",
+                "",
+                "165",
+                "\"linear\"",
+                "1500",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectPositionXTween"
+              },
+              "parameters": [
+                "badge3",
+                "Tween",
+                "",
+                "1056",
+                "\"linear\"",
+                "1500",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectPositionXTween"
+              },
+              "parameters": [
+                "badge7",
+                "Tween",
+                "",
+                "1056",
+                "\"linear\"",
+                "1500",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectPositionXTween"
+              },
+              "parameters": [
+                "badge4",
+                "Tween",
+                "",
+                "1178",
+                "\"linear\"",
+                "1500",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectPositionXTween"
+              },
+              "parameters": [
+                "badge8",
+                "Tween",
+                "",
+                "1178",
+                "\"linear\"",
+                "1500",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "gfx\\Q1\\Q1snd\\1 A Love Of BbMajor.mp3",
+                "1",
+                "yes",
+                "0",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "gfx\\Q1\\Q1snd\\2 Balloons (Bb) - Sparse.mp3",
+                "2",
+                "yes",
+                "0",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "gfx\\Q1\\Q1snd\\3 In Bb - DS.mp3",
+                "3",
+                "yes",
+                "0",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "gfx\\Q1\\Q1snd\\4 In Bb - Ebow.mp3",
+                "4",
+                "yes",
+                "0",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "gfx\\Q1\\Q1snd\\5 In Bb - Electric Bass 2.mp3",
+                "5",
+                "yes",
+                "0",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "gfx\\Q1\\Q1snd\\6 In Bb - Guitar.mp3",
+                "6",
+                "yes",
+                "0",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "gfx\\Q1\\Q1snd\\7 In Bb - Harmon Trumpet.mp3",
+                "7",
+                "yes",
+                "0",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "gfx\\Q1\\Q1snd\\8 In Bb - Kaoss Pad-Synth.mp3",
+                "8",
+                "yes",
+                "0",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "gfx\\Q1\\Q1snd\\9 In Bb - Mallets 1.mp3",
+                "9",
+                "yes",
+                "0",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "gfx\\Q1\\Q1snd\\10 In Bb - Rhodes.mp3",
+                "10",
+                "yes",
+                "0",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "gfx\\Q1\\Q1snd\\11 In Bb - Vocals.mp3",
+                "11",
+                "yes",
+                "0",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "gfx\\Q1\\Q1snd\\12 In Bflat.mp3",
+                "12",
+                "yes",
+                "0",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "gfx\\Q1\\Q1snd\\13 inBb - ELECTRIBE MX.mp3",
+                "13",
+                "yes",
+                "0",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "gfx\\Q1\\Q1snd\\14 Omnichord & Qchord.mp3",
+                "14",
+                "yes",
+                "0",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "balls",
+                "toggle",
+                "=",
+                "-1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "balls",
+                "=",
+                "64"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::SetOutline"
+              },
+              "parameters": [
+                "dialog",
+                "\"0;0;0\"",
+                "5"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::SetTextAlignment"
+              },
+              "parameters": [
+                "dialog",
+                "\"center\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "dialog",
+                "=",
+                "\"Click my mouth for an affirmation.\nClick my orbs to create soothing melodic combinations.\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "Tween::AddObjectPositionXTween"
-          },
-          "parameters": [
-            "BodyRight",
-            "Tween",
-            "",
-            "1024",
-            "\"linear\"",
-            "1500",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "Tween::AddObjectPositionXTween"
-          },
-          "parameters": [
-            "bodyLeft",
-            "Tween",
-            "",
-            "-192",
-            "\"linear\"",
-            "1500",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "Tween::AddObjectPositionXTween"
-          },
-          "parameters": [
-            "badge1",
-            "Tween",
-            "",
-            "48",
-            "\"linear\"",
-            "1500",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "Tween::AddObjectPositionXTween"
-          },
-          "parameters": [
-            "badge5",
-            "Tween",
-            "",
-            "48",
-            "\"linear\"",
-            "1500",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "Tween::AddObjectPositionXTween"
-          },
-          "parameters": [
-            "badge9",
-            "Tween",
-            "",
-            "48",
-            "\"linear\"",
-            "1500",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "Tween::AddObjectPositionXTween"
-          },
-          "parameters": [
-            "badge2",
-            "Tween",
-            "",
-            "165",
-            "\"linear\"",
-            "1500",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "Tween::AddObjectPositionXTween"
-          },
-          "parameters": [
-            "badge6",
-            "Tween",
-            "",
-            "165",
-            "\"linear\"",
-            "1500",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "Tween::AddObjectPositionXTween"
-          },
-          "parameters": [
-            "badge10",
-            "Tween",
-            "",
-            "165",
-            "\"linear\"",
-            "1500",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "Tween::AddObjectPositionXTween"
-          },
-          "parameters": [
-            "badge3",
-            "Tween",
-            "",
-            "1056",
-            "\"linear\"",
-            "1500",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "Tween::AddObjectPositionXTween"
-          },
-          "parameters": [
-            "badge7",
-            "Tween",
-            "",
-            "1056",
-            "\"linear\"",
-            "1500",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "Tween::AddObjectPositionXTween"
-          },
-          "parameters": [
-            "badge4",
-            "Tween",
-            "",
-            "1178",
-            "\"linear\"",
-            "1500",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "Tween::AddObjectPositionXTween"
-          },
-          "parameters": [
-            "badge8",
-            "Tween",
-            "",
-            "1178",
-            "\"linear\"",
-            "1500",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "gfx\\Q1\\Q1snd\\1 A Love Of BbMajor.mp3",
-            "1",
-            "yes",
-            "0",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "gfx\\Q1\\Q1snd\\2 Balloons (Bb) - Sparse.mp3",
-            "2",
-            "yes",
-            "0",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "gfx\\Q1\\Q1snd\\3 In Bb - DS.mp3",
-            "3",
-            "yes",
-            "0",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "gfx\\Q1\\Q1snd\\4 In Bb - Ebow.mp3",
-            "4",
-            "yes",
-            "0",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "gfx\\Q1\\Q1snd\\5 In Bb - Electric Bass 2.mp3",
-            "5",
-            "yes",
-            "0",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "gfx\\Q1\\Q1snd\\6 In Bb - Guitar.mp3",
-            "6",
-            "yes",
-            "0",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "gfx\\Q1\\Q1snd\\7 In Bb - Harmon Trumpet.mp3",
-            "7",
-            "yes",
-            "0",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "gfx\\Q1\\Q1snd\\8 In Bb - Kaoss Pad-Synth.mp3",
-            "8",
-            "yes",
-            "0",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "gfx\\Q1\\Q1snd\\9 In Bb - Mallets 1.mp3",
-            "9",
-            "yes",
-            "0",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "gfx\\Q1\\Q1snd\\10 In Bb - Rhodes.mp3",
-            "10",
-            "yes",
-            "0",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "gfx\\Q1\\Q1snd\\11 In Bb - Vocals.mp3",
-            "11",
-            "yes",
-            "0",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "gfx\\Q1\\Q1snd\\12 In Bflat.mp3",
-            "12",
-            "yes",
-            "0",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "gfx\\Q1\\Q1snd\\13 inBb - ELECTRIBE MX.mp3",
-            "13",
-            "yes",
-            "0",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "gfx\\Q1\\Q1snd\\14 Omnichord & Qchord.mp3",
-            "14",
-            "yes",
-            "0",
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
+      "parameters": []
     },
     {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
       "disabled": false,
       "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+      "name": "Music",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
-          "type": {
-            "inverted": false,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "mouth",
-            "",
-            "",
-            ""
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "balls",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
           ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "MouseButtonReleased"
-          },
-          "parameters": [
-            "",
-            "Left"
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "balls",
+                "toggle",
+                "*",
+                "-1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "balls",
+                "=",
+                "95.5*balls.Variable(toggle)+159.5"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "balls.Variable(CH)",
+                "=",
+                "10*balls.Variable(toggle)+10"
+              ],
+              "subInstructions": []
+            }
           ],
-          "subInstructions": []
+          "events": []
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarObjet"
-          },
-          "parameters": [
-            "mouth",
-            "pick",
-            "=",
-            "RandomInRange(1,16)"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "1",
-            "=",
-            "0"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "2",
-            "=",
-            "0"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "3",
-            "=",
-            "0"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "4",
-            "=",
-            "0"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "5",
-            "=",
-            "0"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "6",
-            "=",
-            "0"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "7",
-            "=",
-            "0"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "8",
-            "=",
-            "0"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "9",
-            "=",
-            "0"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "10",
-            "=",
-            "0"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "11",
-            "=",
-            "0"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "12",
-            "=",
-            "0"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "13",
-            "=",
-            "0"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "14",
-            "=",
-            "0"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"mouth\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "Opacity"
-          },
-          "parameters": [
-            "balls",
-            "=",
-            "255"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
+      "parameters": []
     },
     {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
       "disabled": false,
       "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+      "name": "Speak",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
-          "type": {
-            "inverted": false,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "ball1",
-            "",
-            "",
-            ""
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SoundPlaying"
+              },
+              "parameters": [
+                "",
+                "20"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Timer"
+              },
+              "parameters": [
+                "",
+                ".05",
+                "\"mouth\""
+              ],
+              "subInstructions": []
+            }
           ],
-          "subInstructions": []
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "mouth",
+                "=",
+                "RandomInRange(128,255)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"mouth\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "eye",
+                "=",
+                "255"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         },
         {
-          "type": {
-            "inverted": false,
-            "value": "MouseButtonReleased"
-          },
-          "parameters": [
-            "",
-            "Left"
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SoundPlaying"
+              },
+              "parameters": [
+                "",
+                "20"
+              ],
+              "subInstructions": []
+            }
           ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "1",
-            "=",
-            "20"
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "mouth",
+                "=",
+                "128"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "eye",
+                "=",
+                "64"
+              ],
+              "subInstructions": []
+            }
           ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "ball2",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
+          "events": []
         },
         {
-          "type": {
-            "inverted": false,
-            "value": "MouseButtonReleased"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "2",
-            "=",
-            "20"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "ball3",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "MouseButtonReleased"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "3",
-            "=",
-            "20"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "ball4",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "MouseButtonReleased"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "4",
-            "=",
-            "20"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "ball5",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "MouseButtonReleased"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "5",
-            "=",
-            "20"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "ball6",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "MouseButtonReleased"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "6",
-            "=",
-            "20"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "ball7",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "MouseButtonReleased"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "7",
-            "=",
-            "20"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "ball8",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "MouseButtonReleased"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "8",
-            "=",
-            "20"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "ball9",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "MouseButtonReleased"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "9",
-            "=",
-            "20"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "ball10",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "MouseButtonReleased"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "10",
-            "=",
-            "20"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "ball11",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "MouseButtonReleased"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "11",
-            "=",
-            "20"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "ball12",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "MouseButtonReleased"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "12",
-            "=",
-            "20"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "ball13",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "MouseButtonReleased"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "13",
-            "=",
-            "20"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "ball14",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "MouseButtonReleased"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "14",
-            "=",
-            "20"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarObjet"
-          },
-          "parameters": [
-            "mouth",
-            "pick",
-            "=",
-            "1"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "gfx\\Q1\\Q1snd\\1.mp3",
-            "20",
-            "no",
-            "25",
-            "1.25"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarObjet"
-          },
-          "parameters": [
-            "mouth",
-            "pick",
-            "=",
-            "2"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "gfx\\Q1\\Q1snd\\2.mp3",
-            "20",
-            "no",
-            "25",
-            "1.25"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarObjet"
-          },
-          "parameters": [
-            "mouth",
-            "pick",
-            "=",
-            "3"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "gfx\\Q1\\Q1snd\\3.mp3",
-            "20",
-            "no",
-            "25",
-            "1.25"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarObjet"
-          },
-          "parameters": [
-            "mouth",
-            "pick",
-            "=",
-            "4"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "gfx\\Q1\\Q1snd\\4.mp3",
-            "20",
-            "no",
-            "25",
-            "1.25"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarObjet"
-          },
-          "parameters": [
-            "mouth",
-            "pick",
-            "=",
-            "5"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "gfx\\Q1\\Q1snd\\5.mp3",
-            "20",
-            "no",
-            "25",
-            "1.25"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarObjet"
-          },
-          "parameters": [
-            "mouth",
-            "pick",
-            "=",
-            "6"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "gfx\\Q1\\Q1snd\\6.mp3",
-            "20",
-            "no",
-            "25",
-            "1.25"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarObjet"
-          },
-          "parameters": [
-            "mouth",
-            "pick",
-            "=",
-            "7"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "gfx\\Q1\\Q1snd\\7.mp3",
-            "20",
-            "no",
-            "25",
-            "1.25"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarObjet"
-          },
-          "parameters": [
-            "mouth",
-            "pick",
-            "=",
-            "8"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "gfx\\Q1\\Q1snd\\8.mp3",
-            "20",
-            "no",
-            "25",
-            "1.25"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarObjet"
-          },
-          "parameters": [
-            "mouth",
-            "pick",
-            "=",
-            "9"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "gfx\\Q1\\Q1snd\\9.mp3",
-            "20",
-            "no",
-            "25",
-            "1.25"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarObjet"
-          },
-          "parameters": [
-            "mouth",
-            "pick",
-            "=",
-            "10"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "gfx\\Q1\\Q1snd\\10.mp3",
-            "20",
-            "no",
-            "25",
-            "1.25"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarObjet"
-          },
-          "parameters": [
-            "mouth",
-            "pick",
-            "=",
-            "11"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "gfx\\Q1\\Q1snd\\11.mp3",
-            "20",
-            "no",
-            "25",
-            "1.25"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarObjet"
-          },
-          "parameters": [
-            "mouth",
-            "pick",
-            "=",
-            "12"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "gfx\\Q1\\Q1snd\\12.mp3",
-            "20",
-            "no",
-            "25",
-            "1.25"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarObjet"
-          },
-          "parameters": [
-            "mouth",
-            "pick",
-            "=",
-            "13"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "gfx\\Q1\\Q1snd\\13.mp3",
-            "20",
-            "no",
-            "25",
-            "1.25"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarObjet"
-          },
-          "parameters": [
-            "mouth",
-            "pick",
-            "=",
-            "14"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "gfx\\Q1\\Q1snd\\14.mp3",
-            "20",
-            "no",
-            "25",
-            "1.25"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarObjet"
-          },
-          "parameters": [
-            "mouth",
-            "pick",
-            "=",
-            "15"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "gfx\\Q1\\Q1snd\\15.mp3",
-            "20",
-            "no",
-            "25",
-            "1.25"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarObjet"
-          },
-          "parameters": [
-            "mouth",
-            "pick",
-            "=",
-            "16"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": [],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "gfx\\Q1\\Q1snd\\16.mp3",
-            "20",
-            "no",
-            "25",
-            "1.25"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SoundPlaying"
-          },
-          "parameters": [
-            "",
-            "20"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "Timer"
-          },
-          "parameters": [
-            "",
-            ".05",
-            "\"mouth\""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "Opacity"
-          },
-          "parameters": [
-            "mouth",
-            "=",
-            "RandomInRange(128,255)"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"mouth\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "Opacity"
-          },
-          "parameters": [
-            "eye",
-            "=",
-            "255"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "SoundPlaying"
-          },
-          "parameters": [
-            "",
-            "20"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "Opacity"
-          },
-          "parameters": [
-            "mouth",
-            "=",
-            "128"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "Opacity"
-          },
-          "parameters": [
-            "eye",
-            "=",
-            "64"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "balls",
-            "",
-            "",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "MouseButtonReleased"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "Opacity"
-          },
-          "parameters": [
-            "balls",
-            "=",
-            "64"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "mouth",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarSceneTxt"
+              },
+              "parameters": [
+                "filenum",
+                "=",
+                "ToString(RandomInRange(1, 16))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "pick",
+                "=",
+                "ToNumber(VariableString(filenum))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "dialog",
+                "=",
+                "phrases.VariableString(phrase[VariableString(pick)])"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"mouth\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Size"
+              },
+              "parameters": [
+                "dialog",
+                "=",
+                "24"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "filepicker"
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
+              "events": []
+            }
+          ]
+        }
+      ],
+      "parameters": []
     }
   ],
   "layers": [

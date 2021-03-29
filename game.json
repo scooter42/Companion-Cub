@@ -102,6 +102,8 @@
         "kind": "audio",
         "metadata": "",
         "name": "snd\\Randomize2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": false
       },
       {
@@ -145,6 +147,8 @@
         "kind": "audio",
         "metadata": "",
         "name": "music\\1 Eden (mastered).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -177,6 +181,8 @@
         "kind": "audio",
         "metadata": "",
         "name": "snd\\poptype.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -258,14 +264,6 @@
         "metadata": "",
         "name": "gfx\\screen.png",
         "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "disablePreload": false,
-        "file": "dialog/ccboot.json",
-        "kind": "json",
-        "metadata": "",
-        "name": "dialog\\ccboot.json",
         "userAdded": true
       },
       {
@@ -372,6 +370,8 @@
         "kind": "audio",
         "metadata": "",
         "name": "gfx\\Q1\\Q1snd\\1 A Love Of BbMajor.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -379,6 +379,8 @@
         "kind": "audio",
         "metadata": "",
         "name": "gfx\\Q1\\Q1snd\\1.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -386,6 +388,8 @@
         "kind": "audio",
         "metadata": "",
         "name": "gfx\\Q1\\Q1snd\\2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -393,6 +397,8 @@
         "kind": "audio",
         "metadata": "",
         "name": "gfx\\Q1\\Q1snd\\3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -400,6 +406,8 @@
         "kind": "audio",
         "metadata": "",
         "name": "gfx\\Q1\\Q1snd\\4.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -407,6 +415,8 @@
         "kind": "audio",
         "metadata": "",
         "name": "gfx\\Q1\\Q1snd\\2 Balloons (Bb) - Sparse.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -414,6 +424,8 @@
         "kind": "audio",
         "metadata": "",
         "name": "gfx\\Q1\\Q1snd\\3 In Bb - DS.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -538,6 +550,8 @@
         "kind": "audio",
         "metadata": "",
         "name": "gfx\\Q1\\Q1snd\\4 In Bb - Ebow.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -545,6 +559,8 @@
         "kind": "audio",
         "metadata": "",
         "name": "gfx\\Q1\\Q1snd\\5 In Bb - Electric Bass 2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -552,6 +568,8 @@
         "kind": "audio",
         "metadata": "",
         "name": "gfx\\Q1\\Q1snd\\6 In Bb - Guitar.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -559,6 +577,8 @@
         "kind": "audio",
         "metadata": "",
         "name": "gfx\\Q1\\Q1snd\\7 In Bb - Harmon Trumpet.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -566,6 +586,8 @@
         "kind": "audio",
         "metadata": "",
         "name": "gfx\\Q1\\Q1snd\\8 In Bb - Kaoss Pad-Synth.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -573,6 +595,8 @@
         "kind": "audio",
         "metadata": "",
         "name": "gfx\\Q1\\Q1snd\\9 In Bb - Mallets 1.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -580,6 +604,8 @@
         "kind": "audio",
         "metadata": "",
         "name": "gfx\\Q1\\Q1snd\\10 In Bb - Rhodes.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": false
       },
       {
@@ -587,6 +613,8 @@
         "kind": "audio",
         "metadata": "",
         "name": "gfx\\Q1\\Q1snd\\11 In Bb - Vocals.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -594,6 +622,8 @@
         "kind": "audio",
         "metadata": "",
         "name": "gfx\\Q1\\Q1snd\\12 In Bflat.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -601,6 +631,8 @@
         "kind": "audio",
         "metadata": "",
         "name": "gfx\\Q1\\Q1snd\\13 inBb - ELECTRIBE MX.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -608,6 +640,8 @@
         "kind": "audio",
         "metadata": "",
         "name": "gfx\\Q1\\Q1snd\\14 Omnichord & Qchord.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -615,6 +649,8 @@
         "kind": "audio",
         "metadata": "",
         "name": "gfx\\Q1\\Q1snd\\5.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -622,6 +658,8 @@
         "kind": "audio",
         "metadata": "",
         "name": "gfx\\Q1\\Q1snd\\6.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": false
       },
       {
@@ -629,6 +667,8 @@
         "kind": "audio",
         "metadata": "",
         "name": "gfx\\Q1\\Q1snd\\7.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -636,6 +676,8 @@
         "kind": "audio",
         "metadata": "",
         "name": "gfx\\Q1\\Q1snd\\8.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -643,6 +685,8 @@
         "kind": "audio",
         "metadata": "",
         "name": "gfx\\Q1\\Q1snd\\9.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -650,6 +694,8 @@
         "kind": "audio",
         "metadata": "",
         "name": "gfx\\Q1\\Q1snd\\10.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -657,6 +703,8 @@
         "kind": "audio",
         "metadata": "",
         "name": "gfx\\Q1\\Q1snd\\11.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -664,6 +712,8 @@
         "kind": "audio",
         "metadata": "",
         "name": "gfx\\Q1\\Q1snd\\12.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -671,6 +721,8 @@
         "kind": "audio",
         "metadata": "",
         "name": "gfx\\Q1\\Q1snd\\13.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -678,6 +730,8 @@
         "kind": "audio",
         "metadata": "",
         "name": "gfx\\Q1\\Q1snd\\14.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -685,6 +739,8 @@
         "kind": "audio",
         "metadata": "",
         "name": "gfx\\Q1\\Q1snd\\15.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -692,6 +748,16 @@
         "kind": "audio",
         "metadata": "",
         "name": "gfx\\Q1\\Q1snd\\16.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "dialog/ccboot.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "dialog\\ccboot.json",
         "userAdded": true
       }
     ],
@@ -798,7 +864,7 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "Text",
+      "string": "Dialog HERE",
       "font": "gfx\\Bimbo_JVE.ttf",
       "characterSize": 20,
       "color": {
@@ -1359,42 +1425,52 @@
   "variables": [
     {
       "name": "Oh",
+      "type": "string",
       "value": ""
     },
     {
       "name": "Ch",
+      "type": "string",
       "value": ""
     },
     {
       "name": "Eh",
+      "type": "string",
       "value": ""
     },
     {
       "name": "Ah",
+      "type": "string",
       "value": ""
     },
     {
       "name": "Nh",
+      "type": "string",
       "value": ""
     },
     {
       "name": "Ol",
+      "type": "string",
       "value": ""
     },
     {
       "name": "Cl",
+      "type": "string",
       "value": ""
     },
     {
       "name": "El",
+      "type": "string",
       "value": ""
     },
     {
       "name": "Al",
+      "type": "string",
       "value": ""
     },
     {
       "name": "Nl",
+      "type": "string",
       "value": ""
     }
   ],
@@ -1414,17 +1490,30 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/quest2"
-    }
-  ],
-  "externalEvents": [],
-  "eventsFunctionsExtensions": [
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/timedbackandforthmovement"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/toggleswitch"
+      "referenceTo": "/layouts/quest3"
+    }
+  ],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/filepicker"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/yarndialogcore"
+    }
+  ],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/checkbox"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/timedbackandforthmovement"
     }
   ],
   "externalLayouts": [],

@@ -22,7 +22,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.376
+    "zoomFactor": 0.39999999999999997
   },
   "objectsGroups": [
     {
@@ -73,7 +73,7 @@
       "persistentUuid": "4a2eea48-2c14-437e-a0b5-c3fab919d26b",
       "width": 96,
       "x": 608,
-      "y": 222,
+      "y": 224,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -139,54 +139,6 @@
       "x": 416,
       "y": 96,
       "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Bootup",
-      "locked": false,
-      "name": "Toggle",
-      "persistentUuid": "5f0ab87b-f9f7-45f6-b389-e6b0b9ccdf86",
-      "width": 0,
-      "x": 608,
-      "y": 96,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 64,
-      "layer": "",
-      "locked": false,
-      "name": "KeyInput",
-      "persistentUuid": "8c787e81-505a-4971-952a-700097164358",
-      "width": 64,
-      "x": 1280,
-      "y": 192,
-      "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "",
-      "locked": false,
-      "name": "keyInput",
-      "persistentUuid": "2d20219a-ef8f-4b52-8cc0-8cdc89e66416",
-      "width": 256,
-      "x": 1280,
-      "y": 256,
-      "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -375,10 +327,42 @@
       "locked": false,
       "name": "CCBody",
       "persistentUuid": "fdf2f615-e96f-4424-9491-b0404ed1fa71",
-      "width": 160,
-      "x": 576,
+      "width": 224,
+      "x": 544,
       "y": 320,
       "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Bootup",
+      "locked": false,
+      "name": "Cheats",
+      "persistentUuid": "2935354e-a879-4dbf-b8f3-3761cc47ef0b",
+      "width": 0,
+      "x": 32,
+      "y": 544,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "ToggleG",
+      "persistentUuid": "10e56014-d9f1-4d9f-a9f5-3c064ff94ec5",
+      "width": 0,
+      "x": 640,
+      "y": 160,
+      "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -474,54 +458,25 @@
       ]
     },
     {
-      "bold": false,
-      "italic": true,
-      "name": "keyInput",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "name?",
-      "font": "gfx\\Bimbo_JVE.ttf",
-      "characterSize": 20,
-      "color": {
-        "b": 0,
-        "g": 255,
-        "r": 225
-      }
-    },
-    {
-      "name": "Toggle",
+      "name": "ToggleG",
       "tags": "",
       "type": "PrimitiveDrawing::Drawer",
       "variables": [],
       "behaviors": [
         {
-          "name": "ToggleSwitch",
-          "type": "ToggleSwitch::ToggleSwitch",
-          "ThumbRadius": 16,
-          "ActiveThumbColor": "0;255;0",
-          "ThumbOpacity": 255,
-          "TrackWidth": 96,
-          "TrackHeight": 16,
-          "InactiveTrackColor": "255;0;0",
-          "InactiveTrackOpacity": 128,
-          "ActiveTrackColor": "",
-          "ActiveTrackOpacity": 128,
-          "HaloRadius": 24,
-          "HaloOpacityHover": 32,
-          "HaloOpacityPressed": 64,
-          "ThumbOffset": 0,
-          "Checked": false,
-          "Disabled": false,
+          "name": "Checkbox",
+          "type": "Checkbox::Checkbox",
+          "Checked": true,
+          "PrimaryColor": "0;255;0",
+          "SecondaryColor": "0;255;0",
+          "SideLength": 32,
+          "LineWidth": 8,
+          "HaloRadius": 0,
           "ToggleChanged": false,
-          "InactiveThumbColor": "255;0;0",
-          "IsPressed": false,
-          "ThumbShadowOffsetY": 4,
-          "ThumbShadowOffsetX": 0,
-          "ThumbShadowOpacity": 32
+          "Disabled": false,
+          "BorderThickness": 0,
+          "HaloOpacityHover": 64,
+          "HaloOpacityPressed": 96
         }
       ],
       "fillOpacity": 255,
@@ -541,11 +496,21 @@
       "clearBetweenFrames": true
     },
     {
-      "name": "KeyInput",
+      "name": "Cheats",
       "tags": "",
-      "type": "TextEntryObject::TextEntry",
+      "type": "BBText::BBText",
       "variables": [],
-      "behaviors": []
+      "behaviors": [],
+      "content": {
+        "text": "[outline=blue] [shadow=red]Cheats:\nd = show Dev Panel\nq = quest chooser[/shadow] [/outline]",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "#ffff00",
+        "fontFamily": "gfx\\Bimbo_JVE.ttf",
+        "align": "center",
+        "wordWrap": true
+      }
     },
     {
       "name": "Nl_ThreatUnderestimationQuest",
@@ -795,6 +760,17 @@
         {
           "type": {
             "inverted": false,
+            "value": "DialogueTree::LoadDialogueFromJsonFile"
+          },
+          "parameters": [
+            "",
+            "dialog\\ccboot.json"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
             "value": "PauseAnimation"
           },
           "parameters": [
@@ -832,7 +808,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "Toggle"
+            "ToggleG"
           ],
           "subInstructions": []
         }
@@ -855,18 +831,6 @@
             "2",
             "=",
             "RandomFloatInRange(0.1, 1.5)"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "keyInput",
-            "=",
-            "KeyInput.String()"
           ],
           "subInstructions": []
         },
@@ -1054,390 +1018,33 @@
       "creationTime": 0,
       "disabled": false,
       "folded": false,
-      "name": "Dialog",
+      "name": "Dialog Link Events",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "disabled": false,
           "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "DialogueTree::LoadDialogueFromJsonFile"
-              },
-              "parameters": [
-                "",
-                "dialog\\ccboot.json"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "text_scroll_speed",
-                "=",
-                "0.025"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "questionChoicesText"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "dialog",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "DialogueTree::IsDialogueLineType"
-              },
-              "parameters": [
-                "\"text\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "dialog",
-                "=",
-                "DialogueTree::ClippedLineText()"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Timer"
-                  },
-                  "parameters": [
-                    "",
-                    "Variable(text_scroll_speed)",
-                    "\"text_scroll\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "DialogueTree::ScrollClippedText"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"text_scroll\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MouseButtonReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "CCBody",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "DialogueTree::HasClippedTextScrollingCompleted"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "DialogueTree::GoToNextLine"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Return"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "text_scroll_speed",
-                "=",
-                "0.01"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "DialogueTree::IsDialogueLineType"
-              },
-              "parameters": [
-                "\"options\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "questionChoicesText",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "KeyReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "Down"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "DialogueTree::SelectNextOption"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "KeyReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "Up"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "DialogueTree::SelectPreviousOption"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "KeyReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "z"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "DialogueTree::ConfirmSelectOption"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "questionChoicesText"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "DialogueTree::HasSelectedOptionChanged"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "questionChoicesText",
-                    "=",
-                    "DialogueTree::VerticalOptionsList(\">\")"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
-        },
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "YarnDialogCore"
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "Dialog XTRAS",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
           "disabled": false,
           "folded": false,
@@ -1458,10 +1065,204 @@
             {
               "type": {
                 "inverted": false,
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "2",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"dev\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::HasClippedTextScrollingCompleted"
+              },
+              "parameters": [],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"text\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "2",
+                "=",
+                "5"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::HasClippedTextScrollingCompleted"
+              },
+              "parameters": [],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"text\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "2",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"wake\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayAnimation"
+              },
+              "parameters": [
+                "CCfaces"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "CCfaces",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "snd\\Randomize2.mp3",
+                "2",
+                "yes",
+                "5",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "Cache"
               },
               "parameters": [
-                "dialog"
+                "credits"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"slider\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "ToggleG",
+                ""
               ],
               "subInstructions": []
             }
@@ -1470,240 +1271,6 @@
         }
       ],
       "parameters": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "DialogueTree::HasClippedTextScrollingCompleted"
-          },
-          "parameters": [],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "DialogueTree::IsDialogueLineType"
-          },
-          "parameters": [
-            "\"text\""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "2",
-            "=",
-            "0"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "DialogueTree::HasClippedTextScrollingCompleted"
-          },
-          "parameters": [],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "DialogueTree::IsDialogueLineType"
-          },
-          "parameters": [
-            "\"text\""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "2",
-            "=",
-            "5"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "DialogueTree::CurrentBranchContainsTag"
-          },
-          "parameters": [
-            "\"end\""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "2",
-            "=",
-            "0"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ShowLayer"
-          },
-          "parameters": [
-            "",
-            "\"dev\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "Cache"
-          },
-          "parameters": [
-            "Toggle"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "DialogueTree::IsCommandCalled"
-          },
-          "parameters": [
-            "\"wake\""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlayAnimation"
-          },
-          "parameters": [
-            "CCfaces"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ChangeSprite"
-          },
-          "parameters": [
-            "CCfaces",
-            "=",
-            "0"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "snd\\Randomize2.mp3",
-            "2",
-            "yes",
-            "5",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "Cache"
-          },
-          "parameters": [
-            "credits"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "DialogueTree::IsCommandCalled"
-          },
-          "parameters": [
-            "\"slider\""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "Montre"
-          },
-          "parameters": [
-            "Toggle",
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
     },
     {
       "colorB": 228,
@@ -1723,12 +1290,27 @@
           "conditions": [
             {
               "type": {
-                "inverted": false,
-                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
+                "inverted": true,
+                "value": "Checkbox::Checkbox::IsChecked"
               },
               "parameters": [
-                "Toggle",
-                "ToggleSwitch",
+                "ToggleG",
+                "Checkbox",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Checkbox::Checkbox::SetPrimaryColor"
+              },
+              "parameters": [
+                "ToggleG",
+                "Checkbox",
+                "\"255;0;0\"",
                 ""
               ],
               "subInstructions": []
@@ -1736,10 +1318,91 @@
             {
               "type": {
                 "inverted": false,
+                "value": "Checkbox::Checkbox::SetSecondaryColor"
+              },
+              "parameters": [
+                "ToggleG",
+                "Checkbox",
+                "\"255;0;0\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Checkbox::Checkbox::IsChecked"
+              },
+              "parameters": [
+                "ToggleG",
+                "Checkbox",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Checkbox::Checkbox::SetPrimaryColor"
+              },
+              "parameters": [
+                "ToggleG",
+                "Checkbox",
+                "\"0;255;0\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Checkbox::Checkbox::SetSecondaryColor"
+              },
+              "parameters": [
+                "ToggleG",
+                "Checkbox",
+                "\"0;255;0\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
                 "value": "DialogueTree::CurrentBranchContainsTag"
               },
               "parameters": [
                 "\"Oh\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Checkbox::Checkbox::IsChecked"
+              },
+              "parameters": [
+                "ToggleG",
+                "Checkbox",
+                ""
               ],
               "subInstructions": []
             }
@@ -1778,23 +1441,23 @@
           "conditions": [
             {
               "type": {
-                "inverted": true,
-                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
-              },
-              "parameters": [
-                "Toggle",
-                "ToggleSwitch",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
                 "inverted": false,
                 "value": "DialogueTree::CurrentBranchContainsTag"
               },
               "parameters": [
                 "\"Oh\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Checkbox::Checkbox::IsChecked"
+              },
+              "parameters": [
+                "ToggleG",
+                "Checkbox",
+                ""
               ],
               "subInstructions": []
             }
@@ -1833,22 +1496,22 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
+                "value": "DialogueTree::CurrentBranchContainsTag"
               },
               "parameters": [
-                "Toggle",
-                "ToggleSwitch",
-                ""
+                "\"Ol\""
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "DialogueTree::CurrentBranchContainsTag"
+                "value": "Checkbox::Checkbox::IsChecked"
               },
               "parameters": [
-                "\"Ol\""
+                "ToggleG",
+                "Checkbox",
+                ""
               ],
               "subInstructions": []
             }
@@ -1886,23 +1549,23 @@
           "conditions": [
             {
               "type": {
-                "inverted": true,
-                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
-              },
-              "parameters": [
-                "Toggle",
-                "ToggleSwitch",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
                 "inverted": false,
                 "value": "DialogueTree::CurrentBranchContainsTag"
               },
               "parameters": [
                 "\"Ol\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Checkbox::Checkbox::IsChecked"
+              },
+              "parameters": [
+                "ToggleG",
+                "Checkbox",
+                ""
               ],
               "subInstructions": []
             }
@@ -1942,22 +1605,22 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
+                "value": "DialogueTree::CurrentBranchContainsTag"
               },
               "parameters": [
-                "Toggle",
-                "ToggleSwitch",
-                ""
+                "\"Ch\""
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "DialogueTree::CurrentBranchContainsTag"
+                "value": "Checkbox::Checkbox::IsChecked"
               },
               "parameters": [
-                "\"Ch\""
+                "ToggleG",
+                "Checkbox",
+                ""
               ],
               "subInstructions": []
             }
@@ -1996,23 +1659,23 @@
           "conditions": [
             {
               "type": {
-                "inverted": true,
-                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
-              },
-              "parameters": [
-                "Toggle",
-                "ToggleSwitch",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
                 "inverted": false,
                 "value": "DialogueTree::CurrentBranchContainsTag"
               },
               "parameters": [
                 "\"Ch\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Checkbox::Checkbox::IsChecked"
+              },
+              "parameters": [
+                "ToggleG",
+                "Checkbox",
+                ""
               ],
               "subInstructions": []
             }
@@ -2051,22 +1714,22 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
+                "value": "DialogueTree::CurrentBranchContainsTag"
               },
               "parameters": [
-                "Toggle",
-                "ToggleSwitch",
-                ""
+                "\"Cl\""
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "DialogueTree::CurrentBranchContainsTag"
+                "value": "Checkbox::Checkbox::IsChecked"
               },
               "parameters": [
-                "\"Cl\""
+                "ToggleG",
+                "Checkbox",
+                ""
               ],
               "subInstructions": []
             }
@@ -2104,23 +1767,23 @@
           "conditions": [
             {
               "type": {
-                "inverted": true,
-                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
-              },
-              "parameters": [
-                "Toggle",
-                "ToggleSwitch",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
                 "inverted": false,
                 "value": "DialogueTree::CurrentBranchContainsTag"
               },
               "parameters": [
                 "\"Cl\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Checkbox::Checkbox::IsChecked"
+              },
+              "parameters": [
+                "ToggleG",
+                "Checkbox",
+                ""
               ],
               "subInstructions": []
             }
@@ -2160,22 +1823,22 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
+                "value": "DialogueTree::CurrentBranchContainsTag"
               },
               "parameters": [
-                "Toggle",
-                "ToggleSwitch",
-                ""
+                "\"Eh\""
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "DialogueTree::CurrentBranchContainsTag"
+                "value": "Checkbox::Checkbox::IsChecked"
               },
               "parameters": [
-                "\"Eh\""
+                "ToggleG",
+                "Checkbox",
+                ""
               ],
               "subInstructions": []
             }
@@ -2214,23 +1877,23 @@
           "conditions": [
             {
               "type": {
-                "inverted": true,
-                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
-              },
-              "parameters": [
-                "Toggle",
-                "ToggleSwitch",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
                 "inverted": false,
                 "value": "DialogueTree::CurrentBranchContainsTag"
               },
               "parameters": [
                 "\"Eh\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Checkbox::Checkbox::IsChecked"
+              },
+              "parameters": [
+                "ToggleG",
+                "Checkbox",
+                ""
               ],
               "subInstructions": []
             }
@@ -2269,22 +1932,22 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
+                "value": "DialogueTree::CurrentBranchContainsTag"
               },
               "parameters": [
-                "Toggle",
-                "ToggleSwitch",
-                ""
+                "\"El\""
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "DialogueTree::CurrentBranchContainsTag"
+                "value": "Checkbox::Checkbox::IsChecked"
               },
               "parameters": [
-                "\"El\""
+                "ToggleG",
+                "Checkbox",
+                ""
               ],
               "subInstructions": []
             }
@@ -2322,23 +1985,23 @@
           "conditions": [
             {
               "type": {
-                "inverted": true,
-                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
-              },
-              "parameters": [
-                "Toggle",
-                "ToggleSwitch",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
                 "inverted": false,
                 "value": "DialogueTree::CurrentBranchContainsTag"
               },
               "parameters": [
                 "\"El\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Checkbox::Checkbox::IsChecked"
+              },
+              "parameters": [
+                "ToggleG",
+                "Checkbox",
+                ""
               ],
               "subInstructions": []
             }
@@ -2378,22 +2041,22 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
+                "value": "DialogueTree::CurrentBranchContainsTag"
               },
               "parameters": [
-                "Toggle",
-                "ToggleSwitch",
-                ""
+                "\"Ah\""
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "DialogueTree::CurrentBranchContainsTag"
+                "value": "Checkbox::Checkbox::IsChecked"
               },
               "parameters": [
-                "\"Ah\""
+                "ToggleG",
+                "Checkbox",
+                ""
               ],
               "subInstructions": []
             }
@@ -2432,23 +2095,23 @@
           "conditions": [
             {
               "type": {
-                "inverted": true,
-                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
-              },
-              "parameters": [
-                "Toggle",
-                "ToggleSwitch",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
                 "inverted": false,
                 "value": "DialogueTree::CurrentBranchContainsTag"
               },
               "parameters": [
                 "\"Ah\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Checkbox::Checkbox::IsChecked"
+              },
+              "parameters": [
+                "ToggleG",
+                "Checkbox",
+                ""
               ],
               "subInstructions": []
             }
@@ -2487,22 +2150,22 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
+                "value": "DialogueTree::CurrentBranchContainsTag"
               },
               "parameters": [
-                "Toggle",
-                "ToggleSwitch",
-                ""
+                "\"Al\""
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "DialogueTree::CurrentBranchContainsTag"
+                "value": "Checkbox::Checkbox::IsChecked"
               },
               "parameters": [
-                "\"Al\""
+                "ToggleG",
+                "Checkbox",
+                ""
               ],
               "subInstructions": []
             }
@@ -2540,23 +2203,23 @@
           "conditions": [
             {
               "type": {
-                "inverted": true,
-                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
-              },
-              "parameters": [
-                "Toggle",
-                "ToggleSwitch",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
                 "inverted": false,
                 "value": "DialogueTree::CurrentBranchContainsTag"
               },
               "parameters": [
                 "\"Al\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Checkbox::Checkbox::IsChecked"
+              },
+              "parameters": [
+                "ToggleG",
+                "Checkbox",
+                ""
               ],
               "subInstructions": []
             }
@@ -2596,22 +2259,22 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
+                "value": "DialogueTree::CurrentBranchContainsTag"
               },
               "parameters": [
-                "Toggle",
-                "ToggleSwitch",
-                ""
+                "\"Nh\""
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "DialogueTree::CurrentBranchContainsTag"
+                "value": "Checkbox::Checkbox::IsChecked"
               },
               "parameters": [
-                "\"Nh\""
+                "ToggleG",
+                "Checkbox",
+                ""
               ],
               "subInstructions": []
             }
@@ -2650,23 +2313,23 @@
           "conditions": [
             {
               "type": {
-                "inverted": true,
-                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
-              },
-              "parameters": [
-                "Toggle",
-                "ToggleSwitch",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
                 "inverted": false,
                 "value": "DialogueTree::CurrentBranchContainsTag"
               },
               "parameters": [
                 "\"Nh\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Checkbox::Checkbox::IsChecked"
+              },
+              "parameters": [
+                "ToggleG",
+                "Checkbox",
+                ""
               ],
               "subInstructions": []
             }
@@ -2705,22 +2368,22 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
+                "value": "DialogueTree::CurrentBranchContainsTag"
               },
               "parameters": [
-                "Toggle",
-                "ToggleSwitch",
-                ""
+                "\"Nl\""
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "DialogueTree::CurrentBranchContainsTag"
+                "value": "Checkbox::Checkbox::IsChecked"
               },
               "parameters": [
-                "\"Nl\""
+                "ToggleG",
+                "Checkbox",
+                ""
               ],
               "subInstructions": []
             }
@@ -2758,23 +2421,23 @@
           "conditions": [
             {
               "type": {
-                "inverted": true,
-                "value": "ToggleSwitch::ToggleSwitch::IsChecked"
-              },
-              "parameters": [
-                "Toggle",
-                "ToggleSwitch",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
                 "inverted": false,
                 "value": "DialogueTree::CurrentBranchContainsTag"
               },
               "parameters": [
                 "\"Nl\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Checkbox::Checkbox::IsChecked"
+              },
+              "parameters": [
+                "ToggleG",
+                "Checkbox",
+                ""
               ],
               "subInstructions": []
             }
@@ -2861,7 +2524,86 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Toggle"
+                "ToggleG"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "Dev Panel",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "d"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"dev\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "q"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Chooser\"",
+                ""
               ],
               "subInstructions": []
             }
@@ -2924,15 +2666,15 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "dev",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": []
     }
   ],
   "behaviorsSharedData": [
     {
-      "name": "ToggleSwitch",
-      "type": "ToggleSwitch::ToggleSwitch"
+      "name": "Checkbox",
+      "type": "Checkbox::Checkbox"
     },
     {
       "name": "Tween",

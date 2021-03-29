@@ -19,6 +19,7 @@
     "left",
     "right"
   ],
+  "dependencies": [],
   "eventsFunctions": [],
   "eventsBasedBehaviors": [
     {
@@ -32,6 +33,7 @@
           "fullName": "",
           "functionType": "Action",
           "name": "doStepPreEvents",
+          "private": false,
           "sentence": "",
           "events": [
             {
