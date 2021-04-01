@@ -1,8 +1,8 @@
 {
   "b": 0,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Quest1",
-  "name": "Quest1",
+  "mangledName": "E_95low",
+  "name": "E_low",
   "oglFOV": 90,
   "oglZFar": 500,
   "oglZNear": 1,
@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.64
+    "zoomFactor": 0.5599999999999999
   },
   "objectsGroups": [
     {
@@ -607,14 +607,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 128,
-      "layer": "",
+      "height": 64,
+      "layer": "GUI",
       "locked": false,
       "name": "dialog",
       "persistentUuid": "da3a7a8d-526d-41d9-b02f-fc9b36c17be4",
-      "width": 160,
-      "x": 557,
-      "y": 160,
+      "width": 448,
+      "x": 416,
+      "y": 0,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -632,6 +632,54 @@
       "x": 1344,
       "y": 64,
       "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "locked": false,
+      "name": "affirmations",
+      "persistentUuid": "2f69dae7-7bdd-4aef-b79c-fd8885ecf8f8",
+      "width": 192,
+      "x": 544,
+      "y": 207,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "GUI",
+      "locked": false,
+      "name": "back",
+      "persistentUuid": "1edecc3a-3809-4edd-ac3e-65e13a07ae10",
+      "width": 32,
+      "x": 32,
+      "y": 672,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "GUI",
+      "locked": false,
+      "name": "advanceDialog",
+      "persistentUuid": "89b61ed1-74a1-4a88-8c0e-40d8dac32cad",
+      "width": 64,
+      "x": 896,
+      "y": 0,
+      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -689,7 +737,7 @@
         }
       ],
       "content": {
-        "text": "QUEST 1",
+        "text": "Mello balls",
         "opacity": 255,
         "fontSize": 40,
         "visible": true,
@@ -1595,6 +1643,25 @@
         "g": 247,
         "r": 255
       }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "affirmations",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "sad asd asd asd asd asd asd asd as",
+      "font": "gfx\\Bimbo_JVE.ttf",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 220,
+        "r": 0
+      }
     }
   ],
   "events": [
@@ -1634,7 +1701,7 @@
               "parameters": [
                 "BodyRight",
                 "Tween",
-                "",
+                "\"slide\"",
                 "1024",
                 "\"linear\"",
                 "1500",
@@ -1650,7 +1717,7 @@
               "parameters": [
                 "bodyLeft",
                 "Tween",
-                "",
+                "\"slide\"",
                 "-192",
                 "\"linear\"",
                 "1500",
@@ -1666,7 +1733,7 @@
               "parameters": [
                 "Quest1",
                 "Tween",
-                "",
+                "\"slide\"",
                 "32",
                 "\"linear\"",
                 "1500",
@@ -1682,7 +1749,7 @@
               "parameters": [
                 "badge1",
                 "Tween",
-                "",
+                "\"slide\"",
                 "48",
                 "\"linear\"",
                 "1500",
@@ -1698,7 +1765,7 @@
               "parameters": [
                 "badge5",
                 "Tween",
-                "",
+                "\"slide\"",
                 "48",
                 "\"linear\"",
                 "1500",
@@ -1714,7 +1781,7 @@
               "parameters": [
                 "badge9",
                 "Tween",
-                "",
+                "\"slide\"",
                 "48",
                 "\"linear\"",
                 "1500",
@@ -1730,7 +1797,7 @@
               "parameters": [
                 "badge2",
                 "Tween",
-                "",
+                "\"slide\"",
                 "165",
                 "\"linear\"",
                 "1500",
@@ -1746,7 +1813,7 @@
               "parameters": [
                 "badge6",
                 "Tween",
-                "",
+                "\"slide\"",
                 "165",
                 "\"linear\"",
                 "1500",
@@ -1762,7 +1829,7 @@
               "parameters": [
                 "badge10",
                 "Tween",
-                "",
+                "\"slide\"",
                 "165",
                 "\"linear\"",
                 "1500",
@@ -1778,7 +1845,7 @@
               "parameters": [
                 "badge3",
                 "Tween",
-                "",
+                "\"slide\"",
                 "1056",
                 "\"linear\"",
                 "1500",
@@ -1794,7 +1861,7 @@
               "parameters": [
                 "badge7",
                 "Tween",
-                "",
+                "\"slide\"",
                 "1056",
                 "\"linear\"",
                 "1500",
@@ -1810,7 +1877,7 @@
               "parameters": [
                 "badge4",
                 "Tween",
-                "",
+                "\"slide\"",
                 "1178",
                 "\"linear\"",
                 "1500",
@@ -1826,7 +1893,7 @@
               "parameters": [
                 "badge8",
                 "Tween",
-                "",
+                "\"slide\"",
                 "1178",
                 "\"linear\"",
                 "1500",
@@ -2075,9 +2142,9 @@
                 "value": "TextObject::SetOutline"
               },
               "parameters": [
-                "dialog",
+                "affirmations",
                 "\"0;0;0\"",
-                "5"
+                "4"
               ],
               "subInstructions": []
             },
@@ -2087,20 +2154,9 @@
                 "value": "TextObject::String"
               },
               "parameters": [
-                "dialog",
+                "affirmations",
                 "=",
-                "\"Click my mouth for an affirmation.\nClick my orbs to create soothing melodic combinations.\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::SetTextAlignment"
-              },
-              "parameters": [
-                "dialog",
-                "\"center\""
+                "\"\""
               ],
               "subInstructions": []
             }
@@ -2389,7 +2445,7 @@
                 "value": "TextObject::String"
               },
               "parameters": [
-                "dialog",
+                "affirmations",
                 "=",
                 "phrases.VariableString(phrase[VariableString(pick)])"
               ],
@@ -2409,23 +2465,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "TextObject::Size"
+                "value": "MettreX"
               },
               "parameters": [
-                "dialog",
+                "affirmations",
                 "=",
-                "24"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::SetTextAlignment"
-              },
-              "parameters": [
-                "dialog",
-                "\"center\""
+                "headwords.X()-affirmations.Width()/2"
               ],
               "subInstructions": []
             },
@@ -2435,9 +2480,9 @@
                 "value": "MettreY"
               },
               "parameters": [
-                "dialog",
+                "affirmations",
                 "=",
-                "headwords.Y()-(dialog.Y()/4)"
+                "headwords.Y()-affirmations.Height()/2"
               ],
               "subInstructions": []
             }
@@ -2451,19 +2496,308 @@
                 "includeConfig": 0
               },
               "target": "filepicker"
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [],
-              "events": []
             }
           ]
         }
       ],
       "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "Dialog Link Events",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "YarnDialogCore"
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "Dialog XTRAS",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::LoadDialogueFromJsonFile"
+              },
+              "parameters": [
+                "",
+                "dialog\\E_low.json"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"D1\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "dialog",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "snd\\Randomize2.mp3",
+                "40",
+                "yes",
+                "5",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModPitchSoundChannel"
+              },
+              "parameters": [
+                "",
+                "40",
+                "=",
+                "RandomFloatInRange(0.1, 1.5)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreX"
+              },
+              "parameters": [
+                "dialog",
+                "=",
+                "(SceneWindowWidth()-dialog.Width())/2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::HasClippedTextScrollingCompleted"
+              },
+              "parameters": [],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"text\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "40",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::HasClippedTextScrollingCompleted"
+              },
+              "parameters": [],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"text\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "40",
+                "=",
+                "5"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"end\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "40"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "back",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Chooser\"",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
     }
   ],
   "layers": [
@@ -2540,6 +2874,17 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 6022704,
+      "ambientLightColorR": 134217728,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "GUI",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
     }
   ],
   "behaviorsSharedData": [

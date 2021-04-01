@@ -161,7 +161,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "dialog",
+                    "advanceDialog",
                     "",
                     "",
                     ""
@@ -374,6 +374,73 @@
               },
               "parameters": [
                 "dialog"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "advanceDialog"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::HasClippedTextScrollingCompleted"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "advanceDialog",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::HasClippedTextScrollingCompleted"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "advanceDialog"
               ],
               "subInstructions": []
             }

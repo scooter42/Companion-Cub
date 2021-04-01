@@ -19,6 +19,7 @@
     "gridOffsetX": 0,
     "gridOffsetY": 0,
     "gridR": 158,
+    "gridType": "rectangular",
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
@@ -363,6 +364,22 @@
       "x": 640,
       "y": 160,
       "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "Bootup",
+      "locked": false,
+      "name": "advanceDialog",
+      "persistentUuid": "51c0e74d-858c-4247-a32b-0adfa7257d52",
+      "width": 64,
+      "x": 896,
+      "y": 32,
+      "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -760,17 +777,6 @@
         {
           "type": {
             "inverted": false,
-            "value": "DialogueTree::LoadDialogueFromJsonFile"
-          },
-          "parameters": [
-            "",
-            "dialog\\ccboot.json"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
             "value": "PauseAnimation"
           },
           "parameters": [
@@ -793,12 +799,25 @@
         {
           "type": {
             "inverted": false,
-            "value": "TextObject::String"
+            "value": "Cache"
           },
           "parameters": [
-            "dialog",
-            "=",
-            "\"\""
+            "ToggleG"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "snd\\poptype.mp3",
+            "20",
+            "yes",
+            "0",
+            ""
           ],
           "subInstructions": []
         },
@@ -808,7 +827,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "ToggleG"
+            "advanceDialog"
           ],
           "subInstructions": []
         }
@@ -828,7 +847,7 @@
           },
           "parameters": [
             "",
-            "2",
+            "20",
             "=",
             "RandomFloatInRange(0.1, 1.5)"
           ],
@@ -842,7 +861,7 @@
           "parameters": [
             "dialog",
             "=",
-            "650-dialog.Width()/2"
+            "(SceneWindowWidth()-dialog.Width())/2"
           ],
           "subInstructions": []
         }
@@ -958,55 +977,6 @@
             ""
           ],
           "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "snd\\poptype.mp3",
-            "2",
-            "yes",
-            "5",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "2",
-            "=",
-            "0"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "DialogueTree::StartDialogueFromBranch"
-          },
-          "parameters": [
-            "\"D1\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "Montre"
-          },
-          "parameters": [
-            "dialog",
-            ""
-          ],
-          "subInstructions": []
         }
       ],
       "events": []
@@ -1053,6 +1023,115 @@
             {
               "type": {
                 "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::LoadDialogueFromJsonFile"
+              },
+              "parameters": [
+                "",
+                "dialog\\ccboot.json"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "dialog",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "window",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"D1\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "dialog",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "advanceDialog",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
                 "value": "DialogueTree::CurrentBranchContainsTag"
               },
               "parameters": [
@@ -1069,7 +1148,7 @@
               },
               "parameters": [
                 "",
-                "2",
+                "20",
                 "=",
                 "0"
               ],
@@ -1121,7 +1200,7 @@
               },
               "parameters": [
                 "",
-                "2",
+                "20",
                 "=",
                 "5"
               ],
@@ -1162,7 +1241,7 @@
               },
               "parameters": [
                 "",
-                "2",
+                "20",
                 "=",
                 "0"
               ],
@@ -1218,7 +1297,7 @@
               "parameters": [
                 "",
                 "snd\\Randomize2.mp3",
-                "2",
+                "20",
                 "yes",
                 "5",
                 ""
@@ -1278,7 +1357,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "TOGGLE",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

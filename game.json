@@ -759,6 +759,56 @@
         "metadata": "",
         "name": "dialog\\ccboot.json",
         "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "dialog/Q2.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "dialog\\Q2.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "dialog/Q3.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "dialog\\Q3.json",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/advance.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\advance.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "dialog/E_low.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "dialog\\E_low.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "dialog/chooser.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "dialog\\chooser.json",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gfx/back.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gfx\\back.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1419,6 +1469,94 @@
           ]
         }
       ]
+    },
+    {
+      "name": "advanceDialog",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\advance.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "back",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gfx\\back.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsGroups": [],
@@ -1485,7 +1623,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/quest1"
+      "referenceTo": "/layouts/e_low"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

@@ -1,0 +1,52 @@
+[
+	{
+		"title": "D1",
+		"tags": "",
+		"body": "Quest 3 words here\n[[D1_1|D1_1]]",
+		"position": {
+			"x": -2216,
+			"y": -772
+		},
+		"colorID": 6
+	},
+	{
+		"title": "Last",
+		"tags": "end",
+		"body": "<<end>>\nDummie node just to receive the tag and control the end.",
+		"position": {
+			"x": -1256,
+			"y": -765
+		},
+		"colorID": 8
+	},
+	{
+		"title": "D1_1",
+		"tags": "end",
+		"body": "<<end>>\n[[D1_2|D1_2]]",
+		"position": {
+			"x": -1976,
+			"y": -768
+		},
+		"colorID": 0
+	},
+	{
+		"title": "D1_2",
+		"tags": "",
+		"body": "[[D1_3|D1_3]]",
+		"position": {
+			"x": -1724,
+			"y": -765
+		},
+		"colorID": 0
+	},
+	{
+		"title": "D1_3",
+		"tags": "",
+		"body": "[[Last|Last]]",
+		"position": {
+			"x": -1487,
+			"y": -765
+		},
+		"colorID": 0
+	}
+]

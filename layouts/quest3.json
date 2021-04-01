@@ -19,6 +19,7 @@
     "gridOffsetX": 0,
     "gridOffsetY": 0,
     "gridR": 158,
+    "gridType": "rectangular",
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
@@ -247,6 +248,54 @@
       "x": 320,
       "y": 494,
       "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "GUI",
+      "locked": false,
+      "name": "dialog",
+      "persistentUuid": "7d2065dc-48f5-486f-b3b4-88e3e539cd23",
+      "width": 448,
+      "x": 416,
+      "y": 0,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "GUI",
+      "locked": false,
+      "name": "advanceDialog",
+      "persistentUuid": "ac62954d-f700-4831-9baa-22ffb140fb2b",
+      "width": 64,
+      "x": 864,
+      "y": 0,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "GUI",
+      "locked": false,
+      "name": "back",
+      "persistentUuid": "d187b00e-46d7-4b0c-9cde-8e5ff216aefb",
+      "width": 0,
+      "x": 32,
+      "y": 672,
+      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -545,6 +594,303 @@
       "events": []
     },
     {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "Dialog Link Events",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "YarnDialogCore"
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "Dialog XTRAS",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::LoadDialogueFromJsonFile"
+              },
+              "parameters": [
+                "",
+                "dialog\\Q3.json"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"D1\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "dialog",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "snd\\Randomize2.mp3",
+                "40",
+                "yes",
+                "5",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModPitchSoundChannel"
+              },
+              "parameters": [
+                "",
+                "40",
+                "=",
+                "RandomFloatInRange(0.1, 1.5)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreX"
+              },
+              "parameters": [
+                "dialog",
+                "=",
+                "(SceneWindowWidth()-dialog.Width())/2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::HasClippedTextScrollingCompleted"
+              },
+              "parameters": [],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"text\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "40",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::HasClippedTextScrollingCompleted"
+              },
+              "parameters": [],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"text\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "40",
+                "=",
+                "5"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"end\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "40"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "back",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Chooser\"",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
       "disabled": false,
       "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
@@ -617,6 +963,17 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 7213680,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "GUI",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
     }
   ],
   "behaviorsSharedData": [

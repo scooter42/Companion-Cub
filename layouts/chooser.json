@@ -19,10 +19,11 @@
     "gridOffsetX": 0,
     "gridOffsetY": 0,
     "gridR": 158,
+    "gridType": "rectangular",
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 1.192
+    "zoomFactor": 0.5319999999999994
   },
   "objectsGroups": [],
   "variables": [],
@@ -37,7 +38,7 @@
       "persistentUuid": "3f990a0a-2793-42f7-b8b7-f904a840381c",
       "width": 256,
       "x": 512,
-      "y": 32,
+      "y": 70,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -53,7 +54,7 @@
       "persistentUuid": "fa88609b-19ae-4e6e-b022-245b81364cd8",
       "width": 416,
       "x": 224,
-      "y": 288,
+      "y": 326,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -69,7 +70,7 @@
       "persistentUuid": "7994e9ce-eaa9-414c-b347-63f0343b62a6",
       "width": 416,
       "x": 640,
-      "y": 288,
+      "y": 326,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -85,7 +86,7 @@
       "persistentUuid": "2474fb0b-16ec-427b-a1c3-2f1c49200b0b",
       "width": 64,
       "x": 440,
-      "y": 378,
+      "y": 416,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -101,7 +102,7 @@
       "persistentUuid": "42e983ee-bb70-4795-b359-f6e00b7a667c",
       "width": 64,
       "x": 550,
-      "y": 378,
+      "y": 416,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -117,7 +118,7 @@
       "persistentUuid": "f90b7dd4-e1fe-4e91-b8ea-d3f6a6e5ef07",
       "width": 64,
       "x": 667,
-      "y": 378,
+      "y": 416,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -133,7 +134,7 @@
       "persistentUuid": "c9bd7d90-c2dd-481a-afa8-76704678eb85",
       "width": 64,
       "x": 778,
-      "y": 378,
+      "y": 416,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -149,7 +150,7 @@
       "persistentUuid": "82f8e3c2-72ef-4a40-b7ef-6aac8afb66a9",
       "width": 64,
       "x": 667,
-      "y": 475,
+      "y": 513,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -165,7 +166,7 @@
       "persistentUuid": "c3b6a193-c95c-4437-a234-502c99d32064",
       "width": 64,
       "x": 440,
-      "y": 482,
+      "y": 520,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -181,7 +182,7 @@
       "persistentUuid": "11059b11-1f78-4075-b474-f096912c31bb",
       "width": 64,
       "x": 550,
-      "y": 475,
+      "y": 513,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -197,7 +198,7 @@
       "persistentUuid": "d0de7024-d24c-49e8-8f92-d37e1d3cda3c",
       "width": 64,
       "x": 778,
-      "y": 475,
+      "y": 513,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -213,7 +214,7 @@
       "persistentUuid": "7f1ee8f1-8aa7-4e97-944a-2206897dc21e",
       "width": 64,
       "x": 440,
-      "y": 576,
+      "y": 614,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -229,7 +230,7 @@
       "persistentUuid": "7b7ef411-a25b-407d-ab8b-5234c093a1dc",
       "width": 64,
       "x": 550,
-      "y": 576,
+      "y": 614,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -245,8 +246,40 @@
       "persistentUuid": "03f449d1-3487-4922-94ec-be5f7d9329b8",
       "width": 64,
       "x": 440,
-      "y": 478,
+      "y": 516,
       "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "GUI",
+      "locked": false,
+      "name": "dialog",
+      "persistentUuid": "f3a27511-826b-40d3-8a08-449cb3fea15b",
+      "width": 448,
+      "x": 384,
+      "y": 0,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "GUI",
+      "locked": false,
+      "name": "advanceDialog",
+      "persistentUuid": "eb0b3fe8-bb65-441e-9005-95d2ffa0f65d",
+      "width": 64,
+      "x": 864,
+      "y": 0,
+      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -292,7 +325,7 @@
           },
           "parameters": [
             "",
-            "\"Quest1\""
+            "\"E_low\""
           ],
           "subInstructions": []
         }
@@ -426,6 +459,265 @@
         }
       ],
       "events": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "Dialog Link Events",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "YarnDialogCore"
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "Dialog XTRAS",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::LoadDialogueFromJsonFile"
+              },
+              "parameters": [
+                "",
+                "dialog\\chooser.json"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"D1\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "dialog",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "snd\\Randomize2.mp3",
+                "40",
+                "yes",
+                "5",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModPitchSoundChannel"
+              },
+              "parameters": [
+                "",
+                "40",
+                "=",
+                "RandomFloatInRange(0.1, 1.5)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreX"
+              },
+              "parameters": [
+                "dialog",
+                "=",
+                "(SceneWindowWidth()-dialog.Width())/2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::HasClippedTextScrollingCompleted"
+              },
+              "parameters": [],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"text\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "40",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::HasClippedTextScrollingCompleted"
+              },
+              "parameters": [],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"text\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "40",
+                "=",
+                "5"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"end\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "40"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
     }
   ],
   "layers": [
@@ -470,13 +762,20 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 1818323300,
+      "ambientLightColorR": 100663296,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "GUI",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
     }
   ],
   "behaviorsSharedData": [
-    {
-      "name": "ToggleSwitch",
-      "type": "ToggleSwitch::ToggleSwitch"
-    },
     {
       "name": "Tween",
       "type": "Tween::TweenBehavior"
